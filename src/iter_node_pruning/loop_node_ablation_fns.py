@@ -31,7 +31,8 @@ def find_circuit_forw(model, dataset, dataset_2, heads_not_ablate=None, mlps_not
             model.reset_hooks(including_permanent=True)  #must do this after running with mean ablation hook
             ablated_model = add_ablation_hook_MLP_head(model, dataset_2, copy_heads_not_ablate, mlps_not_ablate)
 
-            new_logits = ablated_model(dataset.toks)
+            with t.no_grad():
+                new_logits = ablated_model(dataset.toks)
             new_score = get_logit_diff(new_logits, dataset)
             new_perc = 100 * new_score / orig_score
             comp_scores[layer] = new_perc
@@ -49,7 +50,8 @@ def find_circuit_forw(model, dataset, dataset_2, heads_not_ablate=None, mlps_not
             model.reset_hooks(including_permanent=True)  #must do this after running with mean ablation hook
             ablated_model = add_ablation_hook_MLP_head(model, dataset_2, heads_not_ablate, copy_mlps_not_ablate)
 
-            new_logits = ablated_model(dataset.toks)
+            with t.no_grad():
+                new_logits = ablated_model(dataset.toks)
             new_score = get_logit_diff(new_logits, dataset)
             new_perc = 100 * new_score / orig_score
             comp_scores[(layer, head)] = new_perc
@@ -79,7 +81,8 @@ def find_circuit_backw(model, dataset, dataset_2, heads_not_ablate=None, mlps_no
             model.reset_hooks(including_permanent=True)  #must do this after running with mean ablation hook
             ablated_model = add_ablation_hook_MLP_head(model, dataset_2, heads_not_ablate, copy_mlps_not_ablate)
 
-            new_logits = ablated_model(dataset.toks)
+            with t.no_grad():
+                new_logits = ablated_model(dataset.toks)
             new_score = get_logit_diff(new_logits, dataset)
             new_perc = 100 * new_score / orig_score
             comp_scores[layer] = new_perc
@@ -100,7 +103,8 @@ def find_circuit_backw(model, dataset, dataset_2, heads_not_ablate=None, mlps_no
             model.reset_hooks(including_permanent=True)  #must do this after running with mean ablation hook
             ablated_model = add_ablation_hook_MLP_head(model, dataset_2, copy_heads_not_ablate, mlps_not_ablate)
 
-            new_logits = ablated_model(dataset.toks)
+            with t.no_grad():
+                new_logits = ablated_model(dataset.toks)
             new_score = get_logit_diff(new_logits, dataset)
             new_perc = 100 * new_score / orig_score
             comp_scores[(layer, head)] = new_perc
