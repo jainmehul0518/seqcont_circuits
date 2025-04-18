@@ -62,6 +62,10 @@ def viz_attn_pat(
     elif task == 'months':
         disp_toks = [" April", " March", " February", " January"]
         # disp_toks = [" Apr", " Mar", " Feb", " Jan"]
+    elif task == 'numerals_step_2':
+        disp_toks = [" 10", " 8", " 6", " 4"]
+    elif task == 'numerals_step_3':
+        disp_toks = [" 28", " 25", " 22", " 19"]
 
     if highlightLines != '':
         if highlightLines == 'early':

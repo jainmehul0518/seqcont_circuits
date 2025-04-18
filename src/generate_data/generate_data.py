@@ -88,6 +88,10 @@ def replace_nw_seqtype(data_list, repl_type):
         repl_dict = {'one': '1', 'two': '2', 'three': '3', 'four': '4', 'five': '5', 'six': '6', 'seven': '7', 'eight': '8', 'nine': '9', 'ten': '10', 'eleven': '11', 'twelve': '12'}
     elif repl_type == 'months':
         repl_dict = {'one': 'January', 'two': 'February', 'three': 'March', 'four': 'April', 'five': 'May', 'six': 'June', 'seven': 'July', 'eight': 'August', 'nine': 'September', 'ten': 'October', 'eleven': 'November', 'twelve': 'December'}
+    elif repl_type == "numerals_step_2":
+        repl_dict = {'one': '2', 'two': '4', 'three': '6', 'four': '8', 'five': '10', 'six': '12', 'seven': '14', 'eight': '16', 'nine': '18', 'ten': '20', 'eleven': '22', 'twelve': '24'}
+    elif repl_type == "numerals_step_3":
+        repl_dict = {'one': '1', 'two': '4', 'three': '7', 'four': '10', 'five': '13', 'six': '16', 'seven': '19', 'eight': '22', 'nine': '25', 'ten': '28', 'eleven': '31', 'twelve': '34'}
 
     out = copy.deepcopy(data_list)
     for item in out:
@@ -190,28 +194,28 @@ def get_good_prompts_numerals(model, prompts_list):
     return good_prompts, all_probs
 
 ###############
-# def generate_prompts_list_corr(prompt_list):
-#     outlist = []
-#     for prompt_dict in prompts_list:
-#         r1 = random.randint(1, 12)
-#         r2 = random.randint(1, 12)
-#         while True:
-#             r3 = random.randint(1, 12)
-#             r4 = random.randint(1, 12)
-#             if r4 - 1 != r3:
-#                 break
-#         new_text = prompt_dict['text'].replace(prompt_dict['S1'], str(r1)).replace(prompt_dict['S2'], str(r2)).replace(prompt_dict['S3'], str(r3)).replace(prompt_dict['S4'], str(r4))
-#         new_prompt_dict = {
-#             'S1': str(r1),
-#             'S2': str(r2),
-#             'S3': str(r3),
-#             'S4': str(r4),
-#             'corr': prompt_dict['corr'],
-#             'incorr': prompt_dict['incorr'],
-#             'text': new_text
-#         }
-#         outlist.append(new_prompt_dict)
-#     return outlist
+def generate_prompts_list_corr(prompt_list):
+    outlist = []
+    for prompt_dict in prompt_list:
+        r1 = random.randint(1, 12)
+        r2 = random.randint(1, 12)
+        while True:
+            r3 = random.randint(1, 12)
+            r4 = random.randint(1, 12)
+            if r4 - 1 != r3:
+                break
+        new_text = prompt_dict['text'].replace(prompt_dict['S1'], str(r1)).replace(prompt_dict['S2'], str(r2)).replace(prompt_dict['S3'], str(r3)).replace(prompt_dict['S4'], str(r4))
+        new_prompt_dict = {
+            'S1': str(r1),
+            'S2': str(r2),
+            'S3': str(r3),
+            'S4': str(r4),
+            'corr': prompt_dict['corr'],
+            'incorr': prompt_dict['incorr'],
+            'text': new_text
+        }
+        outlist.append(new_prompt_dict)
+    return outlist
 
 # prompts_list_2 = generate_prompts_list_corr(prompts_list)
 

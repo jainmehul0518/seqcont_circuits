@@ -19,7 +19,7 @@ from loop_node_ablation_fns import *
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="gpt2-small")
-    parser.add_argument("--task", choices=["numerals", "numwords", "months"], type=str, default="numerals")
+    parser.add_argument("--task", choices=["numerals", "numwords", "months", "numerals_step_2", "numerals_step_3"], type=str, default="numerals")
     parser.add_argument("--num_samps", type=int, default=512)
     parser.add_argument("--threshold", type=int, default=20)
     parser.add_argument("--one_iter", action="store_true", default=False)
@@ -78,12 +78,12 @@ if __name__ == "__main__":
         prompts_list_2 = pickle.load(file)
 
     iter_count = 0
-    for i in range(0, len(prompts_list), 512):
+    for i in range(0, len(prompts_list), args.num_samps):
         print(f'Iteration {iter_count}')
         print("====================================")
         # create datasets 
-        dataset = Dataset(prompts_list[i:i+512], pos_dict, model.tokenizer)
-        dataset_2 = Dataset(prompts_list_2[i:i+512], pos_dict, model.tokenizer)
+        dataset = Dataset(prompts_list[i:i+args.num_samps], pos_dict, model.tokenizer)
+        dataset_2 = Dataset(prompts_list_2[i:i+args.num_samps], pos_dict, model.tokenizer)
 
         #### Get orig score ####
         model.reset_hooks(including_permanent=True)
