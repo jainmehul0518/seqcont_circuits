@@ -123,15 +123,15 @@ if __name__ == "__main__":
         iter_count += 1
         print("====================================")
 
-    # # save to JSON
-    # circuit_dict = {
-    #     'heads': curr_circ_heads,
-    #     'mlps': curr_circ_mlps,
-    # }
+    # save to JSON
+    circuit_dict = {
+        'heads': curr_circ_heads,
+        'mlps': curr_circ_mlps,
+    }
 
-    # circ_file_name = f'./new_results/{task}_circuit_thres_{threshold}.json'
-    # directory = os.path.dirname(circ_file_name)
-    # if not os.path.exists(directory):
-    #     os.makedirs('new_results', exist_ok=True)
-    # with open(circ_file_name, 'w') as json_file:
-    #     json.dump(circuit_dict, json_file, indent=4)
+    circ_file_name = f'./new_results/{task}_circuit_thres_{threshold}.json'
+    directory = os.path.dirname(circ_file_name)
+    if not os.path.exists(directory):
+        os.makedirs('new_results', exist_ok=True)
+    with open(circ_file_name, 'w') as json_file:
+        json.dump(circuit_dict, json_file, indent=4)

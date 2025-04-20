@@ -31,7 +31,7 @@ Navigate to the ``notebooks`` directory and open the Colab notebooks to see deta
 After navigating to the `src/iter_node_pruning` folder, use this command to run node ablation experiments. Lower `--num_samps` if one encounters GPU out-of-memory issues. An A100 is recommended. Change the task and other input parameters to run a different experiment.
 
 ```bash
-python run_node_ablation.py --model "gpt2-small" --task "numerals" --num_samps 512 --threshold 20 --one_iter
+python run_node_ablation_batched.py --model "gpt2-small" --task "numerals" --num_samps 512 --threshold 20 --one_iter
 ```
 
 Similarly, the other files can be run by naviating to their respective sub-folder in `src`. These other commands include:
