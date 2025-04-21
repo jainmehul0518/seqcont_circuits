@@ -66,6 +66,11 @@ def viz_attn_pat(
         disp_toks = [" 10", " 8", " 6", " 4"]
     elif task == 'numerals_step_3':
         disp_toks = [" 28", " 25", " 22", " 19"]
+    elif task == 'fibonacci':
+        # we highlight neighbor‐relations in the Fib sequence
+        disp_toks = [" 5"," 3"," 2"," 1"]
+    elif task == 'fibonacci_words':
+        disp_toks = [" five"," three"," two"," one"]
 
     if highlightLines != '':
         if highlightLines == 'early':

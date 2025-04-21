@@ -92,6 +92,20 @@ def replace_nw_seqtype(data_list, repl_type):
         repl_dict = {'one': '2', 'two': '4', 'three': '6', 'four': '8', 'five': '10', 'six': '12', 'seven': '14', 'eight': '16', 'nine': '18', 'ten': '20', 'eleven': '22', 'twelve': '24'}
     elif repl_type == "numerals_step_3":
         repl_dict = {'one': '1', 'two': '4', 'three': '7', 'four': '10', 'five': '13', 'six': '16', 'seven': '19', 'eight': '22', 'nine': '25', 'ten': '28', 'eleven': '31', 'twelve': '34'}
+    elif repl_type == 'fibonacci':
+        repl_dict = {
+            'one': '1',   'two': '1',   'three': '2',  'four': '3',
+            'five': '5',  'six': '8',   'seven': '13', 'eight': '21',
+            'nine': '34','ten': '55','eleven': '89','twelve': '144'
+        }
+    elif repl_type == 'fibonacci_words':
+        repl_dict = {
+            'one': 'one',   'two': 'one',    'three': 'two',   'four': 'three',
+            'five': 'five', 'six': 'eight',  'seven': 'thirteen',
+            'eight': 'twenty one','nine': 'thirty four',
+            'ten': 'fifty five','eleven': 'eighty nine',
+            'twelve': 'one hundred forty four'
+        }
 
     out = copy.deepcopy(data_list)
     for item in out:
@@ -183,6 +197,23 @@ def get_good_prompts_numerals(model, prompts_list):
         )
         if incor_ind == 'cont':
             continue
+        
+        ### debugging ###
+        print("answer=\n")
+        print(answer)
+
+        print("\nincor=\n")
+        print(incor)
+
+        print("\ntoks = \n")
+        print(toks)
+
+        print("\nincor_ind =\n")
+        print(incor_ind)
+
+        print("\nprobs = \n")
+        print(probs)
+        ### debugging ###
 
         if toks[0] == answer and probs[0] > 2*probs[toks.index(incor)]:
             all_probs.append(probs)

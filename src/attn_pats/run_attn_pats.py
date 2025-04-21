@@ -14,7 +14,11 @@ from viz_attn_pat import *
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="gpt2-small")
-    parser.add_argument("--task", choices=["numerals", "numwords", "months", "numerals_step_2", "numerals_step_3"], type=str, default="numerals")
+    parser.add_argument("--task", choices=[
+        "numerals","numwords","months",
+        "numerals_step_2","numerals_step_3",
+        "fibonacci","fibonacci_words"
+    ], type=str, default="numerals")
     parser.add_argument("--num_samps", type=int, default=512)
 
     args = parser.parse_args()
