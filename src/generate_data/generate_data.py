@@ -92,6 +92,8 @@ def replace_nw_seqtype(data_list, repl_type):
         repl_dict = {'one': '2', 'two': '4', 'three': '6', 'four': '8', 'five': '10', 'six': '12', 'seven': '14', 'eight': '16', 'nine': '18', 'ten': '20', 'eleven': '22', 'twelve': '24'}
     elif repl_type == "numerals_step_3":
         repl_dict = {'one': '1', 'two': '4', 'three': '7', 'four': '10', 'five': '13', 'six': '16', 'seven': '19', 'eight': '22', 'nine': '25', 'ten': '28', 'eleven': '31', 'twelve': '34'}
+    elif repl_type == "numerals_times_2":
+        repl_dict = {'one': '1', 'two': '2', 'three': '4', 'four': '8', 'five': '16', 'six': '32', 'seven': '64', 'eight': '128', 'nine': '256', 'ten': '512', 'eleven': '1024', 'twelve': '2048'}
 
     out = copy.deepcopy(data_list)
     for item in out:
@@ -181,6 +183,24 @@ def get_good_prompts_numerals(model, prompts_list):
             model = model,
             incor = incor
         )
+
+        ### debugging ###
+        print("answer=\n")
+        print(answer)
+
+        print("\nincor=\n")
+        print(incor)
+
+        print("\ntoks = \n")
+        print(toks)
+
+        print("\nincor_ind =\n")
+        print(incor_ind)
+
+        print("\nprobs = \n")
+        print(probs)
+        ### debugging ###
+
         if incor_ind == 'cont':
             continue
 
