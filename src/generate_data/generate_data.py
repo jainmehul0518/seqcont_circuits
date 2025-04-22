@@ -94,6 +94,8 @@ def replace_nw_seqtype(data_list, repl_type):
         repl_dict = {'one': '1', 'two': '4', 'three': '7', 'four': '10', 'five': '13', 'six': '16', 'seven': '19', 'eight': '22', 'nine': '25', 'ten': '28', 'eleven': '31', 'twelve': '34'}
     elif repl_type == "numerals_times_2":
         repl_dict = {'one': '1', 'two': '2', 'three': '4', 'four': '8', 'five': '16', 'six': '32', 'seven': '64', 'eight': '128', 'nine': '256', 'ten': '512', 'eleven': '1024', 'twelve': '2048'}
+    elif repl_type == "numerals_alternate":
+        repl_dict = {'one': '1', 'two': '2', 'three': '1', 'four': '2', 'five': '1', 'six': '2', 'seven': '1', 'eight': '2', 'nine': '1', 'ten': '2', 'eleven': '1', 'twelve': '2'}
 
     out = copy.deepcopy(data_list)
     for item in out:
