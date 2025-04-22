@@ -54,7 +54,7 @@ def viz_attn_pat(
     ax.set_xlabel('Key', fontsize=16, fontweight='bold', labelpad=20)
     ax.set_ylabel('Query', fontsize=16, fontweight='bold', labelpad=20)
 
-    # choose tokens to display 
+    # choose tokens to display # ADD WHICH SEQUENCES TO SEE
     if task == 'numerals':
         disp_toks = [" 4", " 3", " 2", " 1"]
     elif task == 'numwords':
@@ -63,9 +63,14 @@ def viz_attn_pat(
         disp_toks = [" April", " March", " February", " January"]
         # disp_toks = [" Apr", " Mar", " Feb", " Jan"]
     elif task == 'numerals_step_2':
-        disp_toks = [" 10", " 8", " 6", " 4"]
+        disp_toks = [" 8", " 6", " 4", " 2"]
     elif task == 'numerals_step_3':
         disp_toks = [" 28", " 25", " 22", " 19"]
+    elif task == 'numerals_alternate':
+        disp_toks = [" 2", " 1", " 2", " 1"]
+    elif task == 'descending_num':
+        disp_toks = [" 9", " 10", " 11", " 12"]
+    print(task)
 
     if highlightLines != '':
         if highlightLines == 'early':
