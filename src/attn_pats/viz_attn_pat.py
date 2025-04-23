@@ -70,7 +70,12 @@ def viz_attn_pat(
         disp_toks = [" 2", " 1", " 2", " 1"]
     elif task == 'descending_num':
         disp_toks = [" 9", " 10", " 11", " 12"]
-    print(task)
+    elif task == "numwords_descending":
+        disp_toks = [" nine", " ten", " eleven", " twelve"]
+    elif task == "numwords_alternate":
+        disp_toks = [" two", " one", " two", " one"]
+    elif task == "numwords_step_2":
+        disp_toks = [" eight", " six", " four", " two"]
 
     if highlightLines != '':
         if highlightLines == 'early':

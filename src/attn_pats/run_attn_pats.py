@@ -15,7 +15,7 @@ from viz_attn_pat import *
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="gpt2-medium") # CHANGE AS NEEDED
-    parser.add_argument("--task", choices=["numerals", "numwords", "months", "numerals_step_2", "numerals_step_3", "numerals_alternate", "descending_num"], type=str, default="numerals")
+    parser.add_argument("--task", choices=["numerals", "numwords", "months", "numerals_step_2", "numerals_step_3", "numerals_alternate", "descending_num", "numwords_descending", "numwords_alternate", "numwords_step_2"], type=str, default="numerals")
     parser.add_argument("--num_samps", type=int, default=512)
 
     args = parser.parse_args()
@@ -57,11 +57,8 @@ if __name__ == "__main__":
     original_logits, local_cache = model.run_with_cache(tokens) # Run the model and cache all activations
 
     ### Visualize ### ###ADD HEADS TO GENERATE GRAPHS FOR######
-    with open('../../results/numerals_50_aft_prune.json', 'r') as f:
+    with open('../../results/numwords_alternate/numwords_alternate_circuit_thres_50.json', 'r') as f:
         data = json.load(f)
-
-    # task = 'descending_num'
-    task = 'numerals'
 
     for pair in data:
         layer = pair[0]
