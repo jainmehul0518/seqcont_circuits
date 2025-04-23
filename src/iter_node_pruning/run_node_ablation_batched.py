@@ -2,7 +2,7 @@
 Runs iterative node ablation and saves circuit components to json
 
 Usage:
-python run_node_ablation.py --model "gpt2-small" --task "numerals" --num_samps 300 --threshold 20 --one_iter
+python run_node_ablation_batched.py --model "gpt2-medium" --task "numerals_alternate" --num_samps 86 --threshold 50 --one_iter
 """
 import os
 import pickle
@@ -19,7 +19,7 @@ from loop_node_ablation_fns import *
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", type=str, default="gpt2-small")
-    parser.add_argument("--task", choices=["numerals", "numwords", "months", "numerals_step_2", "numerals_step_3", "numwords_step_2"], type=str, default="numerals")
+    parser.add_argument("--task", choices=["numerals", "numwords", "months", "numerals_step_2", "numerals_step_3", "numwords_step_2", "numerals_alternate", "descending_num", "numerals_step_2"], type=str, default="numerals")
     parser.add_argument("--num_samps", type=int, default=512)
     parser.add_argument("--threshold", type=int, default=20)
     parser.add_argument("--one_iter", action="store_true", default=False)

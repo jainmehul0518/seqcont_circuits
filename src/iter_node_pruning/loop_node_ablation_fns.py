@@ -14,13 +14,13 @@ def find_circuit_forw(model, dataset, dataset_2, heads_not_ablate=None, mlps_not
     # threshold is T, a %. if performance is less than T%, allow its removal
     # we don't ablate the curr circuits
     if heads_not_ablate == []: # Start with full circuit
-        heads_not_ablate = [(layer, head) for layer in range(12) for head in range(12)]
+        heads_not_ablate = [(layer, head) for layer in range(24) for head in range(16)]
     if mlps_not_ablate == []:
-        mlps_not_ablate = [layer for layer in range(12)]
+        mlps_not_ablate = [layer for layer in range(24)]
 
     comp_scores = {}
-    for layer in range(0, 12):
-        for head in range(12):
+    for layer in range(0, 24):
+        for head in range(16):
             print(layer, head)
             if (layer, head) not in heads_not_ablate:
                 continue
@@ -67,12 +67,12 @@ def find_circuit_backw(model, dataset, dataset_2, heads_not_ablate=None, mlps_no
     # threshold is T, a %. if performance is less than T%, allow its removal
     # we don't ablate the curr circuits
     if heads_not_ablate == []: # Start with full circuit
-        heads_not_ablate = [(layer, head) for layer in range(12) for head in range(12)]
+        heads_not_ablate = [(layer, head) for layer in range(24) for head in range(16)]
     if mlps_not_ablate == []:
-        mlps_not_ablate = [layer for layer in range(12)]
+        mlps_not_ablate = [layer for layer in range(24)]
 
     comp_scores = {}
-    for layer in range(11, -1, -1):  # go thru all heads in a layer first
+    for layer in range(23, -1, -1):  # go thru all heads in a layer first
         print(layer)
         if layer in mlps_not_ablate:
             copy_mlps_not_ablate = mlps_not_ablate.copy()
@@ -92,7 +92,7 @@ def find_circuit_backw(model, dataset, dataset_2, heads_not_ablate=None, mlps_no
                 print("Removed: MLP ", layer)
             del(new_logits)
 
-        for head in range(12):
+        for head in range(16):
             print(layer, head)
             if (layer, head) not in heads_not_ablate:
                 continue

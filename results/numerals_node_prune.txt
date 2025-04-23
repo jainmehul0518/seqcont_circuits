@@ -1,0 +1,4951 @@
+Loaded pretrained model gpt2-medium into HookedTransformer
+Van done in 1. Hat done in 2. Ring done in 3. Desk done in 4. Sun done in
+Oil lost in 1. Apple lost in 2. Tree lost in 3. Snow lost in 4. Apple lost in
+Marcus born in 1. Victoria born in 2. George born in 3. Brandon born in 4. Jamie born in
+Iteration 0
+====================================
+
+backw prune, iter  1
+23
+(cand circuit / full) %: 104.0602
+Removed: MLP  23
+23 0
+(cand circuit / full) %: 104.3631
+Removed: (23, 0)
+23 1
+(cand circuit / full) %: 104.0395
+Removed: (23, 1)
+23 2
+(cand circuit / full) %: 112.1280
+Removed: (23, 2)
+23 3
+(cand circuit / full) %: 111.8990
+Removed: (23, 3)
+23 4
+(cand circuit / full) %: 124.5947
+Removed: (23, 4)
+23 5
+(cand circuit / full) %: 95.1599
+Removed: (23, 5)
+23 6
+(cand circuit / full) %: 94.8221
+Removed: (23, 6)
+23 7
+(cand circuit / full) %: 87.7845
+Removed: (23, 7)
+23 8
+(cand circuit / full) %: 85.3049
+Removed: (23, 8)
+23 9
+(cand circuit / full) %: 85.4001
+Removed: (23, 9)
+23 10
+(cand circuit / full) %: 85.5175
+Removed: (23, 10)
+23 11
+(cand circuit / full) %: 85.5764
+Removed: (23, 11)
+23 12
+(cand circuit / full) %: 85.7158
+Removed: (23, 12)
+23 13
+(cand circuit / full) %: 85.7796
+Removed: (23, 13)
+23 14
+(cand circuit / full) %: 85.8016
+Removed: (23, 14)
+23 15
+(cand circuit / full) %: 87.1283
+Removed: (23, 15)
+22
+(cand circuit / full) %: 71.6053
+Removed: MLP  22
+22 0
+(cand circuit / full) %: 71.1808
+Removed: (22, 0)
+22 1
+(cand circuit / full) %: 71.1391
+Removed: (22, 1)
+22 2
+(cand circuit / full) %: 70.8845
+Removed: (22, 2)
+22 3
+(cand circuit / full) %: 71.0208
+Removed: (22, 3)
+22 4
+(cand circuit / full) %: 71.0723
+Removed: (22, 4)
+22 5
+(cand circuit / full) %: 71.2895
+Removed: (22, 5)
+22 6
+(cand circuit / full) %: 71.3928
+Removed: (22, 6)
+22 7
+(cand circuit / full) %: 71.3681
+Removed: (22, 7)
+22 8
+(cand circuit / full) %: 69.4431
+Removed: (22, 8)
+22 9
+(cand circuit / full) %: 69.5056
+Removed: (22, 9)
+22 10
+(cand circuit / full) %: 69.6502
+Removed: (22, 10)
+22 11
+(cand circuit / full) %: 69.7763
+Removed: (22, 11)
+22 12
+(cand circuit / full) %: 69.8147
+Removed: (22, 12)
+22 13
+(cand circuit / full) %: 70.2012
+Removed: (22, 13)
+22 14
+(cand circuit / full) %: 69.8030
+Removed: (22, 14)
+22 15
+(cand circuit / full) %: 69.8897
+Removed: (22, 15)
+21
+(cand circuit / full) %: 60.0730
+Removed: MLP  21
+21 0
+(cand circuit / full) %: 61.1092
+Removed: (21, 0)
+21 1
+(cand circuit / full) %: 60.8530
+Removed: (21, 1)
+21 2
+(cand circuit / full) %: 60.8547
+Removed: (21, 2)
+21 3
+(cand circuit / full) %: 60.8527
+Removed: (21, 3)
+21 4
+(cand circuit / full) %: 60.8527
+Removed: (21, 4)
+21 5
+(cand circuit / full) %: 60.8311
+Removed: (21, 5)
+21 6
+(cand circuit / full) %: 60.7695
+Removed: (21, 6)
+21 7
+(cand circuit / full) %: 61.0887
+Removed: (21, 7)
+21 8
+(cand circuit / full) %: 61.1350
+Removed: (21, 8)
+21 9
+(cand circuit / full) %: 61.1334
+Removed: (21, 9)
+21 10
+(cand circuit / full) %: 61.1292
+Removed: (21, 10)
+21 11
+(cand circuit / full) %: 61.1485
+Removed: (21, 11)
+21 12
+(cand circuit / full) %: 61.1963
+Removed: (21, 12)
+21 13
+(cand circuit / full) %: 61.1313
+Removed: (21, 13)
+21 14
+(cand circuit / full) %: 61.5701
+Removed: (21, 14)
+21 15
+(cand circuit / full) %: 61.5672
+Removed: (21, 15)
+20
+(cand circuit / full) %: 42.7324
+20 0
+(cand circuit / full) %: 61.6464
+Removed: (20, 0)
+20 1
+(cand circuit / full) %: 61.3231
+Removed: (20, 1)
+20 2
+(cand circuit / full) %: 61.3204
+Removed: (20, 2)
+20 3
+(cand circuit / full) %: 61.2269
+Removed: (20, 3)
+20 4
+(cand circuit / full) %: 60.9454
+Removed: (20, 4)
+20 5
+(cand circuit / full) %: 60.9410
+Removed: (20, 5)
+20 6
+(cand circuit / full) %: 60.9478
+Removed: (20, 6)
+20 7
+(cand circuit / full) %: 60.3571
+Removed: (20, 7)
+20 8
+(cand circuit / full) %: 61.1594
+Removed: (20, 8)
+20 9
+(cand circuit / full) %: 61.1594
+Removed: (20, 9)
+20 10
+(cand circuit / full) %: 61.1550
+Removed: (20, 10)
+20 11
+(cand circuit / full) %: 61.2281
+Removed: (20, 11)
+20 12
+(cand circuit / full) %: 61.2143
+Removed: (20, 12)
+20 13
+(cand circuit / full) %: 61.1992
+Removed: (20, 13)
+20 14
+(cand circuit / full) %: 61.0762
+Removed: (20, 14)
+20 15
+(cand circuit / full) %: 61.0801
+Removed: (20, 15)
+19
+(cand circuit / full) %: 47.7872
+19 0
+(cand circuit / full) %: 61.1245
+Removed: (19, 0)
+19 1
+(cand circuit / full) %: 59.7389
+Removed: (19, 1)
+19 2
+(cand circuit / full) %: 59.6605
+Removed: (19, 2)
+19 3
+(cand circuit / full) %: 59.6809
+Removed: (19, 3)
+19 4
+(cand circuit / full) %: 59.6455
+Removed: (19, 4)
+19 5
+(cand circuit / full) %: 59.6752
+Removed: (19, 5)
+19 6
+(cand circuit / full) %: 59.6977
+Removed: (19, 6)
+19 7
+(cand circuit / full) %: 59.7056
+Removed: (19, 7)
+19 8
+(cand circuit / full) %: 59.6168
+Removed: (19, 8)
+19 9
+(cand circuit / full) %: 59.6320
+Removed: (19, 9)
+19 10
+(cand circuit / full) %: 59.6390
+Removed: (19, 10)
+19 11
+(cand circuit / full) %: 59.5897
+Removed: (19, 11)
+19 12
+(cand circuit / full) %: 58.0984
+Removed: (19, 12)
+19 13
+(cand circuit / full) %: 58.3713
+Removed: (19, 13)
+19 14
+(cand circuit / full) %: 58.3808
+Removed: (19, 14)
+19 15
+(cand circuit / full) %: 58.3381
+Removed: (19, 15)
+18
+(cand circuit / full) %: 50.9829
+Removed: MLP  18
+18 0
+(cand circuit / full) %: 50.9771
+Removed: (18, 0)
+18 1
+(cand circuit / full) %: 50.9445
+Removed: (18, 1)
+18 2
+(cand circuit / full) %: 50.9336
+Removed: (18, 2)
+18 3
+(cand circuit / full) %: 50.9179
+Removed: (18, 3)
+18 4
+(cand circuit / full) %: 50.8943
+Removed: (18, 4)
+18 5
+(cand circuit / full) %: 50.9530
+Removed: (18, 5)
+18 6
+(cand circuit / full) %: 50.9476
+Removed: (18, 6)
+18 7
+(cand circuit / full) %: 50.9497
+Removed: (18, 7)
+18 8
+(cand circuit / full) %: 50.9538
+Removed: (18, 8)
+18 9
+(cand circuit / full) %: 50.7099
+Removed: (18, 9)
+18 10
+(cand circuit / full) %: 50.9007
+Removed: (18, 10)
+18 11
+(cand circuit / full) %: 49.7169
+18 12
+(cand circuit / full) %: 50.8915
+Removed: (18, 12)
+18 13
+(cand circuit / full) %: 50.7949
+Removed: (18, 13)
+18 14
+(cand circuit / full) %: 50.7620
+Removed: (18, 14)
+18 15
+(cand circuit / full) %: 51.0267
+Removed: (18, 15)
+17
+(cand circuit / full) %: 44.3587
+17 0
+(cand circuit / full) %: 51.0637
+Removed: (17, 0)
+17 1
+(cand circuit / full) %: 50.6335
+Removed: (17, 1)
+17 2
+(cand circuit / full) %: 50.6684
+Removed: (17, 2)
+17 3
+(cand circuit / full) %: 50.5031
+Removed: (17, 3)
+17 4
+(cand circuit / full) %: 50.8091
+Removed: (17, 4)
+17 5
+(cand circuit / full) %: 49.4368
+17 6
+(cand circuit / full) %: 50.7047
+Removed: (17, 6)
+17 7
+(cand circuit / full) %: 50.5722
+Removed: (17, 7)
+17 8
+(cand circuit / full) %: 50.4728
+Removed: (17, 8)
+17 9
+(cand circuit / full) %: 50.5511
+Removed: (17, 9)
+17 10
+(cand circuit / full) %: 50.5709
+Removed: (17, 10)
+17 11
+(cand circuit / full) %: 50.7261
+Removed: (17, 11)
+17 12
+(cand circuit / full) %: 48.6164
+17 13
+(cand circuit / full) %: 50.5779
+Removed: (17, 13)
+17 14
+(cand circuit / full) %: 50.5744
+Removed: (17, 14)
+17 15
+(cand circuit / full) %: 50.5877
+Removed: (17, 15)
+16
+(cand circuit / full) %: 33.6373
+16 0
+(cand circuit / full) %: 50.5290
+Removed: (16, 0)
+16 1
+(cand circuit / full) %: 50.4578
+Removed: (16, 1)
+16 2
+(cand circuit / full) %: 50.4164
+Removed: (16, 2)
+16 3
+(cand circuit / full) %: 50.0200
+Removed: (16, 3)
+16 4
+(cand circuit / full) %: 50.1054
+Removed: (16, 4)
+16 5
+(cand circuit / full) %: 50.1023
+Removed: (16, 5)
+16 6
+(cand circuit / full) %: 50.2465
+Removed: (16, 6)
+16 7
+(cand circuit / full) %: 50.0165
+Removed: (16, 7)
+16 8
+(cand circuit / full) %: 50.2977
+Removed: (16, 8)
+16 9
+(cand circuit / full) %: 50.3123
+Removed: (16, 9)
+16 10
+(cand circuit / full) %: 50.3108
+Removed: (16, 10)
+16 11
+(cand circuit / full) %: 50.3046
+Removed: (16, 11)
+16 12
+(cand circuit / full) %: 50.2405
+Removed: (16, 12)
+16 13
+(cand circuit / full) %: 49.8688
+16 14
+(cand circuit / full) %: 49.9060
+16 15
+(cand circuit / full) %: 50.1464
+Removed: (16, 15)
+15
+(cand circuit / full) %: 47.9486
+15 0
+(cand circuit / full) %: 50.1417
+Removed: (15, 0)
+15 1
+(cand circuit / full) %: 50.1246
+Removed: (15, 1)
+15 2
+(cand circuit / full) %: 48.8039
+15 3
+(cand circuit / full) %: 50.1409
+Removed: (15, 3)
+15 4
+(cand circuit / full) %: 50.1347
+Removed: (15, 4)
+15 5
+(cand circuit / full) %: 49.4691
+15 6
+(cand circuit / full) %: 50.2250
+Removed: (15, 6)
+15 7
+(cand circuit / full) %: 49.5388
+15 8
+(cand circuit / full) %: 49.8622
+15 9
+(cand circuit / full) %: 50.2468
+Removed: (15, 9)
+15 10
+(cand circuit / full) %: 50.1375
+Removed: (15, 10)
+15 11
+(cand circuit / full) %: 50.2207
+Removed: (15, 11)
+15 12
+(cand circuit / full) %: 47.1738
+15 13
+(cand circuit / full) %: 50.0517
+Removed: (15, 13)
+15 14
+(cand circuit / full) %: 51.5807
+Removed: (15, 14)
+15 15
+(cand circuit / full) %: 51.6375
+Removed: (15, 15)
+14
+(cand circuit / full) %: 53.2448
+Removed: MLP  14
+14 0
+(cand circuit / full) %: 53.6583
+Removed: (14, 0)
+14 1
+(cand circuit / full) %: 53.6610
+Removed: (14, 1)
+14 2
+(cand circuit / full) %: 53.6088
+Removed: (14, 2)
+14 3
+(cand circuit / full) %: 53.6150
+Removed: (14, 3)
+14 4
+(cand circuit / full) %: 53.4143
+Removed: (14, 4)
+14 5
+(cand circuit / full) %: 50.7849
+Removed: (14, 5)
+14 6
+(cand circuit / full) %: 50.7160
+Removed: (14, 6)
+14 7
+(cand circuit / full) %: 51.5241
+Removed: (14, 7)
+14 8
+(cand circuit / full) %: 52.3195
+Removed: (14, 8)
+14 9
+(cand circuit / full) %: 52.3189
+Removed: (14, 9)
+14 10
+(cand circuit / full) %: 52.4139
+Removed: (14, 10)
+14 11
+(cand circuit / full) %: 50.0880
+Removed: (14, 11)
+14 12
+(cand circuit / full) %: 49.9969
+14 13
+(cand circuit / full) %: 50.0055
+Removed: (14, 13)
+14 14
+(cand circuit / full) %: 31.1317
+14 15
+(cand circuit / full) %: 50.0363
+Removed: (14, 15)
+13
+(cand circuit / full) %: 49.0020
+13 0
+(cand circuit / full) %: 46.7827
+13 1
+(cand circuit / full) %: 50.3871
+Removed: (13, 1)
+13 2
+(cand circuit / full) %: 49.9400
+13 3
+(cand circuit / full) %: 50.2553
+Removed: (13, 3)
+13 4
+(cand circuit / full) %: 51.3673
+Removed: (13, 4)
+13 5
+(cand circuit / full) %: 51.0953
+Removed: (13, 5)
+13 6
+(cand circuit / full) %: 50.9454
+Removed: (13, 6)
+13 7
+(cand circuit / full) %: 51.3670
+Removed: (13, 7)
+13 8
+(cand circuit / full) %: 51.1571
+Removed: (13, 8)
+13 9
+(cand circuit / full) %: 51.7283
+Removed: (13, 9)
+13 10
+(cand circuit / full) %: 51.5522
+Removed: (13, 10)
+13 11
+(cand circuit / full) %: 51.5360
+Removed: (13, 11)
+13 12
+(cand circuit / full) %: 49.4266
+13 13
+(cand circuit / full) %: 49.0079
+13 14
+(cand circuit / full) %: 51.1887
+Removed: (13, 14)
+13 15
+(cand circuit / full) %: 51.2225
+Removed: (13, 15)
+12
+(cand circuit / full) %: 51.6036
+Removed: MLP  12
+12 0
+(cand circuit / full) %: 51.0884
+Removed: (12, 0)
+12 1
+(cand circuit / full) %: 51.0531
+Removed: (12, 1)
+12 2
+(cand circuit / full) %: 50.8559
+Removed: (12, 2)
+12 3
+(cand circuit / full) %: 50.6241
+Removed: (12, 3)
+12 4
+(cand circuit / full) %: 47.9392
+12 5
+(cand circuit / full) %: 50.6192
+Removed: (12, 5)
+12 6
+(cand circuit / full) %: 50.9323
+Removed: (12, 6)
+12 7
+(cand circuit / full) %: 51.2137
+Removed: (12, 7)
+12 8
+(cand circuit / full) %: 50.7774
+Removed: (12, 8)
+12 9
+(cand circuit / full) %: 51.5645
+Removed: (12, 9)
+12 10
+(cand circuit / full) %: 52.4789
+Removed: (12, 10)
+12 11
+(cand circuit / full) %: 52.5720
+Removed: (12, 11)
+12 12
+(cand circuit / full) %: 50.9497
+Removed: (12, 12)
+12 13
+(cand circuit / full) %: 43.2461
+12 14
+(cand circuit / full) %: 50.8992
+Removed: (12, 14)
+12 15
+(cand circuit / full) %: 50.3911
+Removed: (12, 15)
+11
+(cand circuit / full) %: 44.0470
+11 0
+(cand circuit / full) %: 49.8190
+11 1
+(cand circuit / full) %: 50.3320
+Removed: (11, 1)
+11 2
+(cand circuit / full) %: 50.4319
+Removed: (11, 2)
+11 3
+(cand circuit / full) %: 49.4997
+11 4
+(cand circuit / full) %: 36.0763
+11 5
+(cand circuit / full) %: 49.1817
+11 6
+(cand circuit / full) %: 50.8376
+Removed: (11, 6)
+11 7
+(cand circuit / full) %: 50.2853
+Removed: (11, 7)
+11 8
+(cand circuit / full) %: 50.4799
+Removed: (11, 8)
+11 9
+(cand circuit / full) %: 50.8350
+Removed: (11, 9)
+11 10
+(cand circuit / full) %: 50.3120
+Removed: (11, 10)
+11 11
+(cand circuit / full) %: 50.4425
+Removed: (11, 11)
+11 12
+(cand circuit / full) %: 50.1788
+Removed: (11, 12)
+11 13
+(cand circuit / full) %: 51.2062
+Removed: (11, 13)
+11 14
+(cand circuit / full) %: 50.6925
+Removed: (11, 14)
+11 15
+(cand circuit / full) %: 51.4255
+Removed: (11, 15)
+10
+(cand circuit / full) %: 48.7128
+10 0
+(cand circuit / full) %: 51.5782
+Removed: (10, 0)
+10 1
+(cand circuit / full) %: 50.7657
+Removed: (10, 1)
+10 2
+(cand circuit / full) %: 50.3603
+Removed: (10, 2)
+10 3
+(cand circuit / full) %: 50.6186
+Removed: (10, 3)
+10 4
+(cand circuit / full) %: 51.7418
+Removed: (10, 4)
+10 5
+(cand circuit / full) %: 51.6490
+Removed: (10, 5)
+10 6
+(cand circuit / full) %: 51.8725
+Removed: (10, 6)
+10 7
+(cand circuit / full) %: 52.7486
+Removed: (10, 7)
+10 8
+(cand circuit / full) %: 51.0021
+Removed: (10, 8)
+10 9
+(cand circuit / full) %: 51.3311
+Removed: (10, 9)
+10 10
+(cand circuit / full) %: 50.5086
+Removed: (10, 10)
+10 11
+(cand circuit / full) %: 50.8383
+Removed: (10, 11)
+10 12
+(cand circuit / full) %: 50.6581
+Removed: (10, 12)
+10 13
+(cand circuit / full) %: 50.9320
+Removed: (10, 13)
+10 14
+(cand circuit / full) %: 41.6040
+10 15
+(cand circuit / full) %: 50.9926
+Removed: (10, 15)
+9
+(cand circuit / full) %: 47.9212
+9 0
+(cand circuit / full) %: 50.9193
+Removed: (9, 0)
+9 1
+(cand circuit / full) %: 50.9460
+Removed: (9, 1)
+9 2
+(cand circuit / full) %: 50.8813
+Removed: (9, 2)
+9 3
+(cand circuit / full) %: 51.0382
+Removed: (9, 3)
+9 4
+(cand circuit / full) %: 47.4846
+9 5
+(cand circuit / full) %: 51.0189
+Removed: (9, 5)
+9 6
+(cand circuit / full) %: 51.0776
+Removed: (9, 6)
+9 7
+(cand circuit / full) %: 50.4063
+Removed: (9, 7)
+9 8
+(cand circuit / full) %: 50.4131
+Removed: (9, 8)
+9 9
+(cand circuit / full) %: 50.3005
+Removed: (9, 9)
+9 10
+(cand circuit / full) %: 50.2043
+Removed: (9, 10)
+9 11
+(cand circuit / full) %: 50.1420
+Removed: (9, 11)
+9 12
+(cand circuit / full) %: 50.0176
+Removed: (9, 12)
+9 13
+(cand circuit / full) %: 51.1845
+Removed: (9, 13)
+9 14
+(cand circuit / full) %: 51.5016
+Removed: (9, 14)
+9 15
+(cand circuit / full) %: 51.2905
+Removed: (9, 15)
+8
+(cand circuit / full) %: 47.7075
+8 0
+(cand circuit / full) %: 50.7804
+Removed: (8, 0)
+8 1
+(cand circuit / full) %: 50.2186
+Removed: (8, 1)
+8 2
+(cand circuit / full) %: 50.1928
+Removed: (8, 2)
+8 3
+(cand circuit / full) %: 49.6937
+8 4
+(cand circuit / full) %: 50.2575
+Removed: (8, 4)
+8 5
+(cand circuit / full) %: 50.0968
+Removed: (8, 5)
+8 6
+(cand circuit / full) %: 50.2480
+Removed: (8, 6)
+8 7
+(cand circuit / full) %: 50.3444
+Removed: (8, 7)
+8 8
+(cand circuit / full) %: 50.4780
+Removed: (8, 8)
+8 9
+(cand circuit / full) %: 50.8416
+Removed: (8, 9)
+8 10
+(cand circuit / full) %: 30.8039
+8 11
+(cand circuit / full) %: 50.8497
+Removed: (8, 11)
+8 12
+(cand circuit / full) %: 50.9308
+Removed: (8, 12)
+8 13
+(cand circuit / full) %: 51.0370
+Removed: (8, 13)
+8 14
+(cand circuit / full) %: 50.3899
+Removed: (8, 14)
+8 15
+(cand circuit / full) %: 50.2322
+Removed: (8, 15)
+7
+(cand circuit / full) %: 41.6601
+7 0
+(cand circuit / full) %: 49.1121
+7 1
+(cand circuit / full) %: 50.7136
+Removed: (7, 1)
+7 2
+(cand circuit / full) %: 50.7184
+Removed: (7, 2)
+7 3
+(cand circuit / full) %: 50.6177
+Removed: (7, 3)
+7 4
+(cand circuit / full) %: 51.0582
+Removed: (7, 4)
+7 5
+(cand circuit / full) %: 51.1973
+Removed: (7, 5)
+7 6
+(cand circuit / full) %: 51.6962
+Removed: (7, 6)
+7 7
+(cand circuit / full) %: 51.7544
+Removed: (7, 7)
+7 8
+(cand circuit / full) %: 51.7980
+Removed: (7, 8)
+7 9
+(cand circuit / full) %: 51.6162
+Removed: (7, 9)
+7 10
+(cand circuit / full) %: 51.6207
+Removed: (7, 10)
+7 11
+(cand circuit / full) %: 49.8522
+7 12
+(cand circuit / full) %: 51.6621
+Removed: (7, 12)
+7 13
+(cand circuit / full) %: 51.7832
+Removed: (7, 13)
+7 14
+(cand circuit / full) %: 51.8694
+Removed: (7, 14)
+7 15
+(cand circuit / full) %: 51.8718
+Removed: (7, 15)
+6
+(cand circuit / full) %: 47.5701
+6 0
+(cand circuit / full) %: 48.9209
+6 1
+(cand circuit / full) %: 52.5956
+Removed: (6, 1)
+6 2
+(cand circuit / full) %: 52.6069
+Removed: (6, 2)
+6 3
+(cand circuit / full) %: 52.5989
+Removed: (6, 3)
+6 4
+(cand circuit / full) %: 52.6277
+Removed: (6, 4)
+6 5
+(cand circuit / full) %: 52.6356
+Removed: (6, 5)
+6 6
+(cand circuit / full) %: 52.7189
+Removed: (6, 6)
+6 7
+(cand circuit / full) %: 52.8406
+Removed: (6, 7)
+6 8
+(cand circuit / full) %: 52.8938
+Removed: (6, 8)
+6 9
+(cand circuit / full) %: 52.6960
+Removed: (6, 9)
+6 10
+(cand circuit / full) %: 52.5977
+Removed: (6, 10)
+6 11
+(cand circuit / full) %: 52.3167
+Removed: (6, 11)
+6 12
+(cand circuit / full) %: 51.3222
+Removed: (6, 12)
+6 13
+(cand circuit / full) %: 51.3428
+Removed: (6, 13)
+6 14
+(cand circuit / full) %: 51.1817
+Removed: (6, 14)
+6 15
+(cand circuit / full) %: 51.0693
+Removed: (6, 15)
+5
+(cand circuit / full) %: 48.1413
+5 0
+(cand circuit / full) %: 51.0938
+Removed: (5, 0)
+5 1
+(cand circuit / full) %: 51.1643
+Removed: (5, 1)
+5 2
+(cand circuit / full) %: 51.1763
+Removed: (5, 2)
+5 3
+(cand circuit / full) %: 51.1872
+Removed: (5, 3)
+5 4
+(cand circuit / full) %: 50.9610
+Removed: (5, 4)
+5 5
+(cand circuit / full) %: 50.7283
+Removed: (5, 5)
+5 6
+(cand circuit / full) %: 50.7756
+Removed: (5, 6)
+5 7
+(cand circuit / full) %: 50.7819
+Removed: (5, 7)
+5 8
+(cand circuit / full) %: 50.6551
+Removed: (5, 8)
+5 9
+(cand circuit / full) %: 50.7697
+Removed: (5, 9)
+5 10
+(cand circuit / full) %: 50.6770
+Removed: (5, 10)
+5 11
+(cand circuit / full) %: 50.0545
+Removed: (5, 11)
+5 12
+(cand circuit / full) %: 49.4731
+5 13
+(cand circuit / full) %: 50.5538
+Removed: (5, 13)
+5 14
+(cand circuit / full) %: 50.5919
+Removed: (5, 14)
+5 15
+(cand circuit / full) %: 50.7099
+Removed: (5, 15)
+4
+(cand circuit / full) %: 48.7124
+4 0
+(cand circuit / full) %: 50.7224
+Removed: (4, 0)
+4 1
+(cand circuit / full) %: 50.9082
+Removed: (4, 1)
+4 2
+(cand circuit / full) %: 50.8530
+Removed: (4, 2)
+4 3
+(cand circuit / full) %: 50.8380
+Removed: (4, 3)
+4 4
+(cand circuit / full) %: 50.8063
+Removed: (4, 4)
+4 5
+(cand circuit / full) %: 50.8967
+Removed: (4, 5)
+4 6
+(cand circuit / full) %: 50.3872
+Removed: (4, 6)
+4 7
+(cand circuit / full) %: 50.3866
+Removed: (4, 7)
+4 8
+(cand circuit / full) %: 50.3971
+Removed: (4, 8)
+4 9
+(cand circuit / full) %: 50.2045
+Removed: (4, 9)
+4 10
+(cand circuit / full) %: 50.2826
+Removed: (4, 10)
+4 11
+(cand circuit / full) %: 50.4123
+Removed: (4, 11)
+4 12
+(cand circuit / full) %: 50.4312
+Removed: (4, 12)
+4 13
+(cand circuit / full) %: 49.5871
+4 14
+(cand circuit / full) %: 50.4780
+Removed: (4, 14)
+4 15
+(cand circuit / full) %: 50.5294
+Removed: (4, 15)
+3
+(cand circuit / full) %: 47.6531
+3 0
+(cand circuit / full) %: 49.0138
+3 1
+(cand circuit / full) %: 50.5874
+Removed: (3, 1)
+3 2
+(cand circuit / full) %: 50.6498
+Removed: (3, 2)
+3 3
+(cand circuit / full) %: 50.0113
+Removed: (3, 3)
+3 4
+(cand circuit / full) %: 50.1053
+Removed: (3, 4)
+3 5
+(cand circuit / full) %: 50.0925
+Removed: (3, 5)
+3 6
+(cand circuit / full) %: 50.0829
+Removed: (3, 6)
+3 7
+(cand circuit / full) %: 50.0700
+Removed: (3, 7)
+3 8
+(cand circuit / full) %: 50.0729
+Removed: (3, 8)
+3 9
+(cand circuit / full) %: 50.1058
+Removed: (3, 9)
+3 10
+(cand circuit / full) %: 50.1283
+Removed: (3, 10)
+3 11
+(cand circuit / full) %: 50.1068
+Removed: (3, 11)
+3 12
+(cand circuit / full) %: 50.1596
+Removed: (3, 12)
+3 13
+(cand circuit / full) %: 50.1024
+Removed: (3, 13)
+3 14
+(cand circuit / full) %: 50.1345
+Removed: (3, 14)
+3 15
+(cand circuit / full) %: 50.1585
+Removed: (3, 15)
+2
+(cand circuit / full) %: 50.8178
+Removed: MLP  2
+2 0
+(cand circuit / full) %: 50.7919
+Removed: (2, 0)
+2 1
+(cand circuit / full) %: 50.7871
+Removed: (2, 1)
+2 2
+(cand circuit / full) %: 50.9227
+Removed: (2, 2)
+2 3
+(cand circuit / full) %: 50.8929
+Removed: (2, 3)
+2 4
+(cand circuit / full) %: 50.1612
+Removed: (2, 4)
+2 5
+(cand circuit / full) %: 50.1588
+Removed: (2, 5)
+2 6
+(cand circuit / full) %: 50.1840
+Removed: (2, 6)
+2 7
+(cand circuit / full) %: 50.1857
+Removed: (2, 7)
+2 8
+(cand circuit / full) %: 50.1669
+Removed: (2, 8)
+2 9
+(cand circuit / full) %: 50.1844
+Removed: (2, 9)
+2 10
+(cand circuit / full) %: 50.1724
+Removed: (2, 10)
+2 11
+(cand circuit / full) %: 50.1525
+Removed: (2, 11)
+2 12
+(cand circuit / full) %: 50.1549
+Removed: (2, 12)
+2 13
+(cand circuit / full) %: 50.0685
+Removed: (2, 13)
+2 14
+(cand circuit / full) %: 50.0987
+Removed: (2, 14)
+2 15
+(cand circuit / full) %: 50.1397
+Removed: (2, 15)
+1
+(cand circuit / full) %: 47.9288
+1 0
+(cand circuit / full) %: 50.1346
+Removed: (1, 0)
+1 1
+(cand circuit / full) %: 50.1644
+Removed: (1, 1)
+1 2
+(cand circuit / full) %: 49.7647
+1 3
+(cand circuit / full) %: 50.1671
+Removed: (1, 3)
+1 4
+(cand circuit / full) %: 49.7626
+1 5
+(cand circuit / full) %: 50.1815
+Removed: (1, 5)
+1 6
+(cand circuit / full) %: 50.2204
+Removed: (1, 6)
+1 7
+(cand circuit / full) %: 50.2090
+Removed: (1, 7)
+1 8
+(cand circuit / full) %: 50.2017
+Removed: (1, 8)
+1 9
+(cand circuit / full) %: 50.3811
+Removed: (1, 9)
+1 10
+(cand circuit / full) %: 50.4148
+Removed: (1, 10)
+1 11
+(cand circuit / full) %: 48.7818
+1 12
+(cand circuit / full) %: 50.3616
+Removed: (1, 12)
+1 13
+(cand circuit / full) %: 50.3662
+Removed: (1, 13)
+1 14
+(cand circuit / full) %: 50.2436
+Removed: (1, 14)
+1 15
+(cand circuit / full) %: 50.2418
+Removed: (1, 15)
+0
+(cand circuit / full) %: -2.8432
+0 0
+(cand circuit / full) %: 50.2417
+Removed: (0, 0)
+0 1
+(cand circuit / full) %: 50.2621
+Removed: (0, 1)
+0 2
+(cand circuit / full) %: 50.2833
+Removed: (0, 2)
+0 3
+(cand circuit / full) %: 50.2919
+Removed: (0, 3)
+0 4
+(cand circuit / full) %: 50.3103
+Removed: (0, 4)
+0 5
+(cand circuit / full) %: 50.3980
+Removed: (0, 5)
+0 6
+(cand circuit / full) %: 50.4494
+Removed: (0, 6)
+0 7
+(cand circuit / full) %: 50.4798
+Removed: (0, 7)
+0 8
+(cand circuit / full) %: 50.4624
+Removed: (0, 8)
+0 9
+(cand circuit / full) %: 50.5709
+Removed: (0, 9)
+0 10
+(cand circuit / full) %: 50.5680
+Removed: (0, 10)
+0 11
+(cand circuit / full) %: 50.5303
+Removed: (0, 11)
+0 12
+(cand circuit / full) %: 50.5653
+Removed: (0, 12)
+0 13
+(cand circuit / full) %: 50.6273
+Removed: (0, 13)
+0 14
+(cand circuit / full) %: 50.5819
+Removed: (0, 14)
+0 15
+(cand circuit / full) %: 50.5534
+Removed: (0, 15)
+
+fwd prune, iter  1
+0 0
+0 1
+0 2
+0 3
+0 4
+0 5
+0 6
+0 7
+0 8
+0 9
+0 10
+0 11
+0 12
+0 13
+0 14
+0 15
+0
+(cand circuit / full) %: -2.8424
+1 0
+1 1
+1 2
+(cand circuit / full) %: 50.0620
+Removed: (1, 2)
+1 3
+1 4
+(cand circuit / full) %: 49.4651
+1 5
+1 6
+1 7
+1 8
+1 9
+1 10
+1 11
+(cand circuit / full) %: 48.1699
+1 12
+1 13
+1 14
+1 15
+1
+(cand circuit / full) %: 48.2536
+2 0
+2 1
+2 2
+2 3
+2 4
+2 5
+2 6
+2 7
+2 8
+2 9
+2 10
+2 11
+2 12
+2 13
+2 14
+2 15
+2
+3 0
+(cand circuit / full) %: 48.4520
+3 1
+3 2
+3 3
+3 4
+3 5
+3 6
+3 7
+3 8
+3 9
+3 10
+3 11
+3 12
+3 13
+3 14
+3 15
+3
+(cand circuit / full) %: 47.3028
+4 0
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+4 11
+4 12
+4 13
+(cand circuit / full) %: 49.6664
+4 14
+4 15
+4
+(cand circuit / full) %: 48.2675
+5 0
+5 1
+5 2
+5 3
+5 4
+5 5
+5 6
+5 7
+5 8
+5 9
+5 10
+5 11
+5 12
+(cand circuit / full) %: 49.3141
+5 13
+5 14
+5 15
+5
+(cand circuit / full) %: 47.7243
+6 0
+(cand circuit / full) %: 45.7905
+6 1
+6 2
+6 3
+6 4
+6 5
+6 6
+6 7
+6 8
+6 9
+6 10
+6 11
+6 12
+6 13
+6 14
+6 15
+6
+(cand circuit / full) %: 45.6210
+7 0
+(cand circuit / full) %: 47.8008
+7 1
+7 2
+7 3
+7 4
+7 5
+7 6
+7 7
+7 8
+7 9
+7 10
+7 11
+(cand circuit / full) %: 49.1921
+7 12
+7 13
+7 14
+7 15
+7
+(cand circuit / full) %: 42.5047
+8 0
+8 1
+8 2
+8 3
+(cand circuit / full) %: 49.8356
+8 4
+8 5
+8 6
+8 7
+8 8
+8 9
+8 10
+(cand circuit / full) %: 15.2370
+8 11
+8 12
+8 13
+8 14
+8 15
+8
+(cand circuit / full) %: 48.1430
+9 0
+9 1
+9 2
+9 3
+9 4
+(cand circuit / full) %: 46.7797
+9 5
+9 6
+9 7
+9 8
+9 9
+9 10
+9 11
+9 12
+9 13
+9 14
+9 15
+9
+(cand circuit / full) %: 46.2752
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+10 10
+10 11
+10 12
+10 13
+10 14
+(cand circuit / full) %: 39.9395
+10 15
+10
+(cand circuit / full) %: 44.3190
+11 0
+(cand circuit / full) %: 49.7629
+11 1
+11 2
+11 3
+(cand circuit / full) %: 49.3719
+11 4
+(cand circuit / full) %: 33.7458
+11 5
+(cand circuit / full) %: 48.3714
+11 6
+11 7
+11 8
+11 9
+11 10
+11 11
+11 12
+11 13
+11 14
+11 15
+11
+(cand circuit / full) %: 44.1667
+12 0
+12 1
+12 2
+12 3
+12 4
+(cand circuit / full) %: 47.6367
+12 5
+12 6
+12 7
+12 8
+12 9
+12 10
+12 11
+12 12
+12 13
+(cand circuit / full) %: 43.6215
+12 14
+12 15
+12
+13 0
+(cand circuit / full) %: 43.7128
+13 1
+13 2
+(cand circuit / full) %: 50.0090
+Removed: (13, 2)
+13 3
+13 4
+13 5
+13 6
+13 7
+13 8
+13 9
+13 10
+13 11
+13 12
+(cand circuit / full) %: 46.5116
+13 13
+(cand circuit / full) %: 47.3181
+13 14
+13 15
+13
+(cand circuit / full) %: 44.0034
+14 0
+14 1
+14 2
+14 3
+14 4
+14 5
+14 6
+14 7
+14 8
+14 9
+14 10
+14 11
+14 12
+(cand circuit / full) %: 49.9807
+14 13
+14 14
+(cand circuit / full) %: 28.6211
+14 15
+14
+15 0
+15 1
+15 2
+(cand circuit / full) %: 49.3461
+15 3
+15 4
+15 5
+(cand circuit / full) %: 49.3557
+15 6
+15 7
+(cand circuit / full) %: 48.6221
+15 8
+(cand circuit / full) %: 49.8369
+15 9
+15 10
+15 11
+15 12
+(cand circuit / full) %: 47.7009
+15 13
+15 14
+15 15
+15
+(cand circuit / full) %: 44.4107
+16 0
+16 1
+16 2
+16 3
+16 4
+16 5
+16 6
+16 7
+16 8
+16 9
+16 10
+16 11
+16 12
+16 13
+(cand circuit / full) %: 49.7043
+16 14
+(cand circuit / full) %: 49.3613
+16 15
+16
+(cand circuit / full) %: 31.6527
+17 0
+17 1
+17 2
+17 3
+17 4
+17 5
+(cand circuit / full) %: 48.3611
+17 6
+17 7
+17 8
+17 9
+17 10
+17 11
+17 12
+(cand circuit / full) %: 48.7644
+17 13
+17 14
+17 15
+17
+(cand circuit / full) %: 42.3230
+18 0
+18 1
+18 2
+18 3
+18 4
+18 5
+18 6
+18 7
+18 8
+18 9
+18 10
+18 11
+(cand circuit / full) %: 48.0509
+18 12
+18 13
+18 14
+18 15
+18
+19 0
+19 1
+19 2
+19 3
+19 4
+19 5
+19 6
+19 7
+19 8
+19 9
+19 10
+19 11
+19 12
+19 13
+19 14
+19 15
+19
+(cand circuit / full) %: 37.0081
+20 0
+20 1
+20 2
+20 3
+20 4
+20 5
+20 6
+20 7
+20 8
+20 9
+20 10
+20 11
+20 12
+20 13
+20 14
+20 15
+20
+(cand circuit / full) %: 34.8930
+21 0
+21 1
+21 2
+21 3
+21 4
+21 5
+21 6
+21 7
+21 8
+21 9
+21 10
+21 11
+21 12
+21 13
+21 14
+21 15
+21
+22 0
+22 1
+22 2
+22 3
+22 4
+22 5
+22 6
+22 7
+22 8
+22 9
+22 10
+22 11
+22 12
+22 13
+22 14
+22 15
+22
+23 0
+23 1
+23 2
+23 3
+23 4
+23 5
+23 6
+23 7
+23 8
+23 9
+23 10
+23 11
+23 12
+23 13
+23 14
+23 15
+23
+====================================
+Iteration 1
+====================================
+
+backw prune, iter  1
+23
+(cand circuit / full) %: 104.7136
+Removed: MLP  23
+23 0
+(cand circuit / full) %: 104.8225
+Removed: (23, 0)
+23 1
+(cand circuit / full) %: 104.5410
+Removed: (23, 1)
+23 2
+(cand circuit / full) %: 116.0265
+Removed: (23, 2)
+23 3
+(cand circuit / full) %: 115.7866
+Removed: (23, 3)
+23 4
+(cand circuit / full) %: 129.6562
+Removed: (23, 4)
+23 5
+(cand circuit / full) %: 94.7044
+Removed: (23, 5)
+23 6
+(cand circuit / full) %: 94.9483
+Removed: (23, 6)
+23 7
+(cand circuit / full) %: 87.5453
+Removed: (23, 7)
+23 8
+(cand circuit / full) %: 84.9829
+Removed: (23, 8)
+23 9
+(cand circuit / full) %: 85.0666
+Removed: (23, 9)
+23 10
+(cand circuit / full) %: 85.2813
+Removed: (23, 10)
+23 11
+(cand circuit / full) %: 85.3280
+Removed: (23, 11)
+23 12
+(cand circuit / full) %: 85.4873
+Removed: (23, 12)
+23 13
+(cand circuit / full) %: 85.5325
+Removed: (23, 13)
+23 14
+(cand circuit / full) %: 85.6064
+Removed: (23, 14)
+23 15
+(cand circuit / full) %: 86.8241
+Removed: (23, 15)
+22
+(cand circuit / full) %: 71.0886
+Removed: MLP  22
+22 0
+(cand circuit / full) %: 70.7053
+Removed: (22, 0)
+22 1
+(cand circuit / full) %: 70.6710
+Removed: (22, 1)
+22 2
+(cand circuit / full) %: 70.3251
+Removed: (22, 2)
+22 3
+(cand circuit / full) %: 70.4531
+Removed: (22, 3)
+22 4
+(cand circuit / full) %: 70.5333
+Removed: (22, 4)
+22 5
+(cand circuit / full) %: 70.7205
+Removed: (22, 5)
+22 6
+(cand circuit / full) %: 70.8110
+Removed: (22, 6)
+22 7
+(cand circuit / full) %: 70.7412
+Removed: (22, 7)
+22 8
+(cand circuit / full) %: 69.1954
+Removed: (22, 8)
+22 9
+(cand circuit / full) %: 69.4290
+Removed: (22, 9)
+22 10
+(cand circuit / full) %: 69.5386
+Removed: (22, 10)
+22 11
+(cand circuit / full) %: 69.5764
+Removed: (22, 11)
+22 12
+(cand circuit / full) %: 69.5930
+Removed: (22, 12)
+22 13
+(cand circuit / full) %: 70.0980
+Removed: (22, 13)
+22 14
+(cand circuit / full) %: 69.8556
+Removed: (22, 14)
+22 15
+(cand circuit / full) %: 69.9038
+Removed: (22, 15)
+21
+(cand circuit / full) %: 59.5850
+Removed: MLP  21
+21 0
+(cand circuit / full) %: 60.5538
+Removed: (21, 0)
+21 1
+(cand circuit / full) %: 60.3305
+Removed: (21, 1)
+21 2
+(cand circuit / full) %: 60.3718
+Removed: (21, 2)
+21 3
+(cand circuit / full) %: 60.3646
+Removed: (21, 3)
+21 4
+(cand circuit / full) %: 60.3695
+Removed: (21, 4)
+21 5
+(cand circuit / full) %: 60.3685
+Removed: (21, 5)
+21 6
+(cand circuit / full) %: 60.3234
+Removed: (21, 6)
+21 7
+(cand circuit / full) %: 60.6175
+Removed: (21, 7)
+21 8
+(cand circuit / full) %: 60.5874
+Removed: (21, 8)
+21 9
+(cand circuit / full) %: 60.6033
+Removed: (21, 9)
+21 10
+(cand circuit / full) %: 60.6340
+Removed: (21, 10)
+21 11
+(cand circuit / full) %: 60.6443
+Removed: (21, 11)
+21 12
+(cand circuit / full) %: 60.6985
+Removed: (21, 12)
+21 13
+(cand circuit / full) %: 60.6561
+Removed: (21, 13)
+21 14
+(cand circuit / full) %: 61.2625
+Removed: (21, 14)
+21 15
+(cand circuit / full) %: 61.2619
+Removed: (21, 15)
+20
+(cand circuit / full) %: 41.3941
+20 0
+(cand circuit / full) %: 61.3806
+Removed: (20, 0)
+20 1
+(cand circuit / full) %: 61.1575
+Removed: (20, 1)
+20 2
+(cand circuit / full) %: 61.1765
+Removed: (20, 2)
+20 3
+(cand circuit / full) %: 61.0692
+Removed: (20, 3)
+20 4
+(cand circuit / full) %: 60.8755
+Removed: (20, 4)
+20 5
+(cand circuit / full) %: 60.8893
+Removed: (20, 5)
+20 6
+(cand circuit / full) %: 60.8980
+Removed: (20, 6)
+20 7
+(cand circuit / full) %: 60.3751
+Removed: (20, 7)
+20 8
+(cand circuit / full) %: 61.1090
+Removed: (20, 8)
+20 9
+(cand circuit / full) %: 61.1052
+Removed: (20, 9)
+20 10
+(cand circuit / full) %: 61.0883
+Removed: (20, 10)
+20 11
+(cand circuit / full) %: 61.1265
+Removed: (20, 11)
+20 12
+(cand circuit / full) %: 61.1132
+Removed: (20, 12)
+20 13
+(cand circuit / full) %: 61.0968
+Removed: (20, 13)
+20 14
+(cand circuit / full) %: 61.0284
+Removed: (20, 14)
+20 15
+(cand circuit / full) %: 61.0252
+Removed: (20, 15)
+19
+(cand circuit / full) %: 46.3321
+19 0
+(cand circuit / full) %: 61.0591
+Removed: (19, 0)
+19 1
+(cand circuit / full) %: 58.2972
+Removed: (19, 1)
+19 2
+(cand circuit / full) %: 58.2292
+Removed: (19, 2)
+19 3
+(cand circuit / full) %: 58.2945
+Removed: (19, 3)
+19 4
+(cand circuit / full) %: 58.2866
+Removed: (19, 4)
+19 5
+(cand circuit / full) %: 58.3396
+Removed: (19, 5)
+19 6
+(cand circuit / full) %: 58.3800
+Removed: (19, 6)
+19 7
+(cand circuit / full) %: 58.3218
+Removed: (19, 7)
+19 8
+(cand circuit / full) %: 58.2367
+Removed: (19, 8)
+19 9
+(cand circuit / full) %: 58.2011
+Removed: (19, 9)
+19 10
+(cand circuit / full) %: 58.2636
+Removed: (19, 10)
+19 11
+(cand circuit / full) %: 58.2600
+Removed: (19, 11)
+19 12
+(cand circuit / full) %: 57.3923
+Removed: (19, 12)
+19 13
+(cand circuit / full) %: 57.8868
+Removed: (19, 13)
+19 14
+(cand circuit / full) %: 57.9016
+Removed: (19, 14)
+19 15
+(cand circuit / full) %: 57.8675
+Removed: (19, 15)
+18
+(cand circuit / full) %: 47.9901
+18 0
+(cand circuit / full) %: 57.8710
+Removed: (18, 0)
+18 1
+(cand circuit / full) %: 57.8274
+Removed: (18, 1)
+18 2
+(cand circuit / full) %: 57.8664
+Removed: (18, 2)
+18 3
+(cand circuit / full) %: 57.8239
+Removed: (18, 3)
+18 4
+(cand circuit / full) %: 57.7243
+Removed: (18, 4)
+18 5
+(cand circuit / full) %: 57.8118
+Removed: (18, 5)
+18 6
+(cand circuit / full) %: 57.8097
+Removed: (18, 6)
+18 7
+(cand circuit / full) %: 57.7708
+Removed: (18, 7)
+18 8
+(cand circuit / full) %: 57.7759
+Removed: (18, 8)
+18 9
+(cand circuit / full) %: 57.2276
+Removed: (18, 9)
+18 10
+(cand circuit / full) %: 57.5822
+Removed: (18, 10)
+18 11
+(cand circuit / full) %: 55.7112
+Removed: (18, 11)
+18 12
+(cand circuit / full) %: 55.7077
+Removed: (18, 12)
+18 13
+(cand circuit / full) %: 55.5853
+Removed: (18, 13)
+18 14
+(cand circuit / full) %: 55.5656
+Removed: (18, 14)
+18 15
+(cand circuit / full) %: 55.6803
+Removed: (18, 15)
+17
+(cand circuit / full) %: 47.6751
+17 0
+(cand circuit / full) %: 55.5488
+Removed: (17, 0)
+17 1
+(cand circuit / full) %: 55.5951
+Removed: (17, 1)
+17 2
+(cand circuit / full) %: 55.5299
+Removed: (17, 2)
+17 3
+(cand circuit / full) %: 55.0634
+Removed: (17, 3)
+17 4
+(cand circuit / full) %: 55.4336
+Removed: (17, 4)
+17 5
+(cand circuit / full) %: 54.9048
+Removed: (17, 5)
+17 6
+(cand circuit / full) %: 54.6391
+Removed: (17, 6)
+17 7
+(cand circuit / full) %: 54.5960
+Removed: (17, 7)
+17 8
+(cand circuit / full) %: 54.7054
+Removed: (17, 8)
+17 9
+(cand circuit / full) %: 54.8095
+Removed: (17, 9)
+17 10
+(cand circuit / full) %: 54.8470
+Removed: (17, 10)
+17 11
+(cand circuit / full) %: 55.1807
+Removed: (17, 11)
+17 12
+(cand circuit / full) %: 52.2125
+Removed: (17, 12)
+17 13
+(cand circuit / full) %: 51.9627
+Removed: (17, 13)
+17 14
+(cand circuit / full) %: 51.9703
+Removed: (17, 14)
+17 15
+(cand circuit / full) %: 51.9914
+Removed: (17, 15)
+16
+(cand circuit / full) %: 32.5662
+16 0
+(cand circuit / full) %: 52.0788
+Removed: (16, 0)
+16 1
+(cand circuit / full) %: 51.9654
+Removed: (16, 1)
+16 2
+(cand circuit / full) %: 52.0277
+Removed: (16, 2)
+16 3
+(cand circuit / full) %: 51.9827
+Removed: (16, 3)
+16 4
+(cand circuit / full) %: 52.1108
+Removed: (16, 4)
+16 5
+(cand circuit / full) %: 51.9619
+Removed: (16, 5)
+16 6
+(cand circuit / full) %: 52.2369
+Removed: (16, 6)
+16 7
+(cand circuit / full) %: 52.1857
+Removed: (16, 7)
+16 8
+(cand circuit / full) %: 52.8074
+Removed: (16, 8)
+16 9
+(cand circuit / full) %: 52.8890
+Removed: (16, 9)
+16 10
+(cand circuit / full) %: 52.8953
+Removed: (16, 10)
+16 11
+(cand circuit / full) %: 53.1092
+Removed: (16, 11)
+16 12
+(cand circuit / full) %: 52.9686
+Removed: (16, 12)
+16 13
+(cand circuit / full) %: 52.2519
+Removed: (16, 13)
+16 14
+(cand circuit / full) %: 52.2379
+Removed: (16, 14)
+16 15
+(cand circuit / full) %: 52.3195
+Removed: (16, 15)
+15
+(cand circuit / full) %: 48.3264
+15 0
+(cand circuit / full) %: 52.3162
+Removed: (15, 0)
+15 1
+(cand circuit / full) %: 52.3382
+Removed: (15, 1)
+15 2
+(cand circuit / full) %: 50.3538
+Removed: (15, 2)
+15 3
+(cand circuit / full) %: 50.3961
+Removed: (15, 3)
+15 4
+(cand circuit / full) %: 50.3930
+Removed: (15, 4)
+15 5
+(cand circuit / full) %: 49.5488
+15 6
+(cand circuit / full) %: 50.6301
+Removed: (15, 6)
+15 7
+(cand circuit / full) %: 49.5557
+15 8
+(cand circuit / full) %: 49.7586
+15 9
+(cand circuit / full) %: 50.5982
+Removed: (15, 9)
+15 10
+(cand circuit / full) %: 50.5434
+Removed: (15, 10)
+15 11
+(cand circuit / full) %: 50.6651
+Removed: (15, 11)
+15 12
+(cand circuit / full) %: 48.0314
+15 13
+(cand circuit / full) %: 51.1762
+Removed: (15, 13)
+15 14
+(cand circuit / full) %: 54.1320
+Removed: (15, 14)
+15 15
+(cand circuit / full) %: 54.1561
+Removed: (15, 15)
+14
+(cand circuit / full) %: 55.1183
+Removed: MLP  14
+14 0
+(cand circuit / full) %: 55.5712
+Removed: (14, 0)
+14 1
+(cand circuit / full) %: 55.5754
+Removed: (14, 1)
+14 2
+(cand circuit / full) %: 56.2200
+Removed: (14, 2)
+14 3
+(cand circuit / full) %: 56.1946
+Removed: (14, 3)
+14 4
+(cand circuit / full) %: 55.9062
+Removed: (14, 4)
+14 5
+(cand circuit / full) %: 53.7359
+Removed: (14, 5)
+14 6
+(cand circuit / full) %: 53.5791
+Removed: (14, 6)
+14 7
+(cand circuit / full) %: 54.5197
+Removed: (14, 7)
+14 8
+(cand circuit / full) %: 55.5909
+Removed: (14, 8)
+14 9
+(cand circuit / full) %: 55.5237
+Removed: (14, 9)
+14 10
+(cand circuit / full) %: 55.7553
+Removed: (14, 10)
+14 11
+(cand circuit / full) %: 52.9100
+Removed: (14, 11)
+14 12
+(cand circuit / full) %: 53.0110
+Removed: (14, 12)
+14 13
+(cand circuit / full) %: 52.9656
+Removed: (14, 13)
+14 14
+(cand circuit / full) %: 35.4073
+14 15
+(cand circuit / full) %: 52.8843
+Removed: (14, 15)
+13
+(cand circuit / full) %: 53.0617
+Removed: MLP  13
+13 0
+(cand circuit / full) %: 52.1424
+Removed: (13, 0)
+13 1
+(cand circuit / full) %: 53.2748
+Removed: (13, 1)
+13 2
+(cand circuit / full) %: 52.6236
+Removed: (13, 2)
+13 3
+(cand circuit / full) %: 52.3807
+Removed: (13, 3)
+13 4
+(cand circuit / full) %: 53.2813
+Removed: (13, 4)
+13 5
+(cand circuit / full) %: 53.0711
+Removed: (13, 5)
+13 6
+(cand circuit / full) %: 52.6452
+Removed: (13, 6)
+13 7
+(cand circuit / full) %: 52.8517
+Removed: (13, 7)
+13 8
+(cand circuit / full) %: 52.4088
+Removed: (13, 8)
+13 9
+(cand circuit / full) %: 53.0240
+Removed: (13, 9)
+13 10
+(cand circuit / full) %: 52.8153
+Removed: (13, 10)
+13 11
+(cand circuit / full) %: 52.8360
+Removed: (13, 11)
+13 12
+(cand circuit / full) %: 50.5883
+Removed: (13, 12)
+13 13
+(cand circuit / full) %: 47.3415
+13 14
+(cand circuit / full) %: 50.1597
+Removed: (13, 14)
+13 15
+(cand circuit / full) %: 50.1866
+Removed: (13, 15)
+12
+(cand circuit / full) %: 44.5165
+12 0
+(cand circuit / full) %: 50.8181
+Removed: (12, 0)
+12 1
+(cand circuit / full) %: 50.6093
+Removed: (12, 1)
+12 2
+(cand circuit / full) %: 50.5940
+Removed: (12, 2)
+12 3
+(cand circuit / full) %: 50.3824
+Removed: (12, 3)
+12 4
+(cand circuit / full) %: 48.9159
+12 5
+(cand circuit / full) %: 50.9761
+Removed: (12, 5)
+12 6
+(cand circuit / full) %: 51.3361
+Removed: (12, 6)
+12 7
+(cand circuit / full) %: 51.7401
+Removed: (12, 7)
+12 8
+(cand circuit / full) %: 51.0947
+Removed: (12, 8)
+12 9
+(cand circuit / full) %: 53.7564
+Removed: (12, 9)
+12 10
+(cand circuit / full) %: 54.2475
+Removed: (12, 10)
+12 11
+(cand circuit / full) %: 54.3699
+Removed: (12, 11)
+12 12
+(cand circuit / full) %: 49.2904
+12 13
+(cand circuit / full) %: 48.7094
+12 14
+(cand circuit / full) %: 54.3715
+Removed: (12, 14)
+12 15
+(cand circuit / full) %: 52.7137
+Removed: (12, 15)
+11
+(cand circuit / full) %: 50.3340
+Removed: MLP  11
+11 0
+(cand circuit / full) %: 50.0836
+Removed: (11, 0)
+11 1
+(cand circuit / full) %: 48.8877
+11 2
+(cand circuit / full) %: 49.7548
+11 3
+(cand circuit / full) %: 49.7747
+11 4
+(cand circuit / full) %: 21.3978
+11 5
+(cand circuit / full) %: 44.3427
+11 6
+(cand circuit / full) %: 50.1484
+Removed: (11, 6)
+11 7
+(cand circuit / full) %: 50.3014
+Removed: (11, 7)
+11 8
+(cand circuit / full) %: 50.7862
+Removed: (11, 8)
+11 9
+(cand circuit / full) %: 51.1108
+Removed: (11, 9)
+11 10
+(cand circuit / full) %: 51.0583
+Removed: (11, 10)
+11 11
+(cand circuit / full) %: 51.0953
+Removed: (11, 11)
+11 12
+(cand circuit / full) %: 51.4480
+Removed: (11, 12)
+11 13
+(cand circuit / full) %: 52.8319
+Removed: (11, 13)
+11 14
+(cand circuit / full) %: 51.3188
+Removed: (11, 14)
+11 15
+(cand circuit / full) %: 51.6357
+Removed: (11, 15)
+10
+(cand circuit / full) %: 42.5048
+10 0
+(cand circuit / full) %: 51.2825
+Removed: (10, 0)
+10 1
+(cand circuit / full) %: 50.2371
+Removed: (10, 1)
+10 2
+(cand circuit / full) %: 49.4161
+10 3
+(cand circuit / full) %: 49.1397
+10 4
+(cand circuit / full) %: 52.4277
+Removed: (10, 4)
+10 5
+(cand circuit / full) %: 52.1591
+Removed: (10, 5)
+10 6
+(cand circuit / full) %: 52.1200
+Removed: (10, 6)
+10 7
+(cand circuit / full) %: 52.4742
+Removed: (10, 7)
+10 8
+(cand circuit / full) %: 50.7410
+Removed: (10, 8)
+10 9
+(cand circuit / full) %: 49.5723
+10 10
+(cand circuit / full) %: 49.9168
+10 11
+(cand circuit / full) %: 50.0051
+Removed: (10, 11)
+10 12
+(cand circuit / full) %: 49.7771
+10 13
+(cand circuit / full) %: 50.4666
+Removed: (10, 13)
+10 14
+(cand circuit / full) %: 42.4569
+10 15
+(cand circuit / full) %: 50.3759
+Removed: (10, 15)
+9
+(cand circuit / full) %: 47.4803
+9 0
+(cand circuit / full) %: 50.3074
+Removed: (9, 0)
+9 1
+(cand circuit / full) %: 49.9285
+9 2
+(cand circuit / full) %: 50.1301
+Removed: (9, 2)
+9 3
+(cand circuit / full) %: 49.6361
+9 4
+(cand circuit / full) %: 47.8851
+9 5
+(cand circuit / full) %: 50.2882
+Removed: (9, 5)
+9 6
+(cand circuit / full) %: 50.5215
+Removed: (9, 6)
+9 7
+(cand circuit / full) %: 48.7955
+9 8
+(cand circuit / full) %: 50.0335
+Removed: (9, 8)
+9 9
+(cand circuit / full) %: 49.9659
+9 10
+(cand circuit / full) %: 49.8227
+9 11
+(cand circuit / full) %: 50.1020
+Removed: (9, 11)
+9 12
+(cand circuit / full) %: 50.0572
+Removed: (9, 12)
+9 13
+(cand circuit / full) %: 49.9685
+9 14
+(cand circuit / full) %: 50.2673
+Removed: (9, 14)
+9 15
+(cand circuit / full) %: 49.9687
+8
+(cand circuit / full) %: 39.2683
+8 0
+(cand circuit / full) %: 49.2214
+8 1
+(cand circuit / full) %: 50.7359
+Removed: (8, 1)
+8 2
+(cand circuit / full) %: 50.6474
+Removed: (8, 2)
+8 3
+(cand circuit / full) %: 51.2102
+Removed: (8, 3)
+8 4
+(cand circuit / full) %: 50.3892
+Removed: (8, 4)
+8 5
+(cand circuit / full) %: 50.3396
+Removed: (8, 5)
+8 6
+(cand circuit / full) %: 50.2977
+Removed: (8, 6)
+8 7
+(cand circuit / full) %: 50.1012
+Removed: (8, 7)
+8 8
+(cand circuit / full) %: 50.1447
+Removed: (8, 8)
+8 9
+(cand circuit / full) %: 49.9368
+8 10
+(cand circuit / full) %: 32.9100
+8 11
+(cand circuit / full) %: 50.0628
+Removed: (8, 11)
+8 12
+(cand circuit / full) %: 49.7019
+8 13
+(cand circuit / full) %: 49.9039
+8 14
+(cand circuit / full) %: 49.4076
+8 15
+(cand circuit / full) %: 49.8572
+7
+(cand circuit / full) %: 41.1386
+7 0
+(cand circuit / full) %: 48.8044
+7 1
+(cand circuit / full) %: 49.7332
+7 2
+(cand circuit / full) %: 50.9640
+Removed: (7, 2)
+7 3
+(cand circuit / full) %: 50.8985
+Removed: (7, 3)
+7 4
+(cand circuit / full) %: 50.9014
+Removed: (7, 4)
+7 5
+(cand circuit / full) %: 49.7627
+7 6
+(cand circuit / full) %: 50.1576
+Removed: (7, 6)
+7 7
+(cand circuit / full) %: 50.0659
+Removed: (7, 7)
+7 8
+(cand circuit / full) %: 49.4375
+7 9
+(cand circuit / full) %: 50.1640
+Removed: (7, 9)
+7 10
+(cand circuit / full) %: 50.0559
+Removed: (7, 10)
+7 11
+(cand circuit / full) %: 48.5370
+7 12
+(cand circuit / full) %: 49.9750
+7 13
+(cand circuit / full) %: 50.4159
+Removed: (7, 13)
+7 14
+(cand circuit / full) %: 50.9273
+Removed: (7, 14)
+7 15
+(cand circuit / full) %: 51.2102
+Removed: (7, 15)
+6
+(cand circuit / full) %: 44.3609
+6 0
+(cand circuit / full) %: 49.2628
+6 1
+(cand circuit / full) %: 51.2550
+Removed: (6, 1)
+6 2
+(cand circuit / full) %: 50.7564
+Removed: (6, 2)
+6 3
+(cand circuit / full) %: 50.7994
+Removed: (6, 3)
+6 4
+(cand circuit / full) %: 49.8521
+6 5
+(cand circuit / full) %: 48.9480
+6 6
+(cand circuit / full) %: 52.4439
+Removed: (6, 6)
+6 7
+(cand circuit / full) %: 53.1012
+Removed: (6, 7)
+6 8
+(cand circuit / full) %: 53.1736
+Removed: (6, 8)
+6 9
+(cand circuit / full) %: 52.9406
+Removed: (6, 9)
+6 10
+(cand circuit / full) %: 52.8456
+Removed: (6, 10)
+6 11
+(cand circuit / full) %: 51.7862
+Removed: (6, 11)
+6 12
+(cand circuit / full) %: 50.1107
+Removed: (6, 12)
+6 13
+(cand circuit / full) %: 49.9765
+6 14
+(cand circuit / full) %: 50.0887
+Removed: (6, 14)
+6 15
+(cand circuit / full) %: 49.5558
+5
+(cand circuit / full) %: 42.3127
+5 0
+(cand circuit / full) %: 49.8461
+5 1
+(cand circuit / full) %: 49.5437
+5 2
+(cand circuit / full) %: 50.1971
+Removed: (5, 2)
+5 3
+(cand circuit / full) %: 49.7403
+5 4
+(cand circuit / full) %: 50.6039
+Removed: (5, 4)
+5 5
+(cand circuit / full) %: 49.6138
+5 6
+(cand circuit / full) %: 51.2324
+Removed: (5, 6)
+5 7
+(cand circuit / full) %: 51.4824
+Removed: (5, 7)
+5 8
+(cand circuit / full) %: 51.0384
+Removed: (5, 8)
+5 9
+(cand circuit / full) %: 51.3124
+Removed: (5, 9)
+5 10
+(cand circuit / full) %: 51.6122
+Removed: (5, 10)
+5 11
+(cand circuit / full) %: 52.0979
+Removed: (5, 11)
+5 12
+(cand circuit / full) %: 51.2891
+Removed: (5, 12)
+5 13
+(cand circuit / full) %: 51.1597
+Removed: (5, 13)
+5 14
+(cand circuit / full) %: 51.2087
+Removed: (5, 14)
+5 15
+(cand circuit / full) %: 52.1274
+Removed: (5, 15)
+4
+(cand circuit / full) %: 50.0493
+Removed: MLP  4
+4 0
+(cand circuit / full) %: 50.0129
+Removed: (4, 0)
+4 1
+(cand circuit / full) %: 49.9492
+4 2
+(cand circuit / full) %: 51.2337
+Removed: (4, 2)
+4 3
+(cand circuit / full) %: 50.4390
+Removed: (4, 3)
+4 4
+(cand circuit / full) %: 50.6239
+Removed: (4, 4)
+4 5
+(cand circuit / full) %: 50.7543
+Removed: (4, 5)
+4 6
+(cand circuit / full) %: 50.0270
+Removed: (4, 6)
+4 7
+(cand circuit / full) %: 49.7985
+4 8
+(cand circuit / full) %: 49.8537
+4 9
+(cand circuit / full) %: 49.7170
+4 10
+(cand circuit / full) %: 50.0147
+Removed: (4, 10)
+4 11
+(cand circuit / full) %: 49.8050
+4 12
+(cand circuit / full) %: 50.5647
+Removed: (4, 12)
+4 13
+(cand circuit / full) %: 50.4751
+Removed: (4, 13)
+4 14
+(cand circuit / full) %: 50.7128
+Removed: (4, 14)
+4 15
+(cand circuit / full) %: 50.4866
+Removed: (4, 15)
+3
+(cand circuit / full) %: 46.0786
+3 0
+(cand circuit / full) %: 49.5891
+3 1
+(cand circuit / full) %: 50.3186
+Removed: (3, 1)
+3 2
+(cand circuit / full) %: 49.8247
+3 3
+(cand circuit / full) %: 50.1816
+Removed: (3, 3)
+3 4
+(cand circuit / full) %: 50.0843
+Removed: (3, 4)
+3 5
+(cand circuit / full) %: 50.1938
+Removed: (3, 5)
+3 6
+(cand circuit / full) %: 50.1017
+Removed: (3, 6)
+3 7
+(cand circuit / full) %: 50.1424
+Removed: (3, 7)
+3 8
+(cand circuit / full) %: 50.3325
+Removed: (3, 8)
+3 9
+(cand circuit / full) %: 50.3898
+Removed: (3, 9)
+3 10
+(cand circuit / full) %: 50.4025
+Removed: (3, 10)
+3 11
+(cand circuit / full) %: 51.3373
+Removed: (3, 11)
+3 12
+(cand circuit / full) %: 51.7423
+Removed: (3, 12)
+3 13
+(cand circuit / full) %: 51.8051
+Removed: (3, 13)
+3 14
+(cand circuit / full) %: 51.4919
+Removed: (3, 14)
+3 15
+(cand circuit / full) %: 51.4048
+Removed: (3, 15)
+2
+(cand circuit / full) %: 52.1117
+Removed: MLP  2
+2 0
+(cand circuit / full) %: 52.0816
+Removed: (2, 0)
+2 1
+(cand circuit / full) %: 51.9673
+Removed: (2, 1)
+2 2
+(cand circuit / full) %: 51.5782
+Removed: (2, 2)
+2 3
+(cand circuit / full) %: 51.7426
+Removed: (2, 3)
+2 4
+(cand circuit / full) %: 51.6382
+Removed: (2, 4)
+2 5
+(cand circuit / full) %: 51.2658
+Removed: (2, 5)
+2 6
+(cand circuit / full) %: 51.1295
+Removed: (2, 6)
+2 7
+(cand circuit / full) %: 51.3788
+Removed: (2, 7)
+2 8
+(cand circuit / full) %: 51.1952
+Removed: (2, 8)
+2 9
+(cand circuit / full) %: 51.6074
+Removed: (2, 9)
+2 10
+(cand circuit / full) %: 51.5150
+Removed: (2, 10)
+2 11
+(cand circuit / full) %: 51.5894
+Removed: (2, 11)
+2 12
+(cand circuit / full) %: 51.2859
+Removed: (2, 12)
+2 13
+(cand circuit / full) %: 51.1842
+Removed: (2, 13)
+2 14
+(cand circuit / full) %: 51.4144
+Removed: (2, 14)
+2 15
+(cand circuit / full) %: 51.5007
+Removed: (2, 15)
+1
+(cand circuit / full) %: 45.2794
+1 0
+(cand circuit / full) %: 51.4062
+Removed: (1, 0)
+1 1
+(cand circuit / full) %: 51.4791
+Removed: (1, 1)
+1 2
+(cand circuit / full) %: 51.4739
+Removed: (1, 2)
+1 3
+(cand circuit / full) %: 51.5070
+Removed: (1, 3)
+1 4
+(cand circuit / full) %: 51.2234
+Removed: (1, 4)
+1 5
+(cand circuit / full) %: 51.1455
+Removed: (1, 5)
+1 6
+(cand circuit / full) %: 50.8940
+Removed: (1, 6)
+1 7
+(cand circuit / full) %: 50.8293
+Removed: (1, 7)
+1 8
+(cand circuit / full) %: 50.8990
+Removed: (1, 8)
+1 9
+(cand circuit / full) %: 50.8443
+Removed: (1, 9)
+1 10
+(cand circuit / full) %: 50.8278
+Removed: (1, 10)
+1 11
+(cand circuit / full) %: 50.4101
+Removed: (1, 11)
+1 12
+(cand circuit / full) %: 50.5835
+Removed: (1, 12)
+1 13
+(cand circuit / full) %: 50.4949
+Removed: (1, 13)
+1 14
+(cand circuit / full) %: 50.4103
+Removed: (1, 14)
+1 15
+(cand circuit / full) %: 50.5456
+Removed: (1, 15)
+0
+(cand circuit / full) %: -3.4692
+0 0
+(cand circuit / full) %: 50.4894
+Removed: (0, 0)
+0 1
+(cand circuit / full) %: 50.5129
+Removed: (0, 1)
+0 2
+(cand circuit / full) %: 50.5116
+Removed: (0, 2)
+0 3
+(cand circuit / full) %: 50.5445
+Removed: (0, 3)
+0 4
+(cand circuit / full) %: 50.3932
+Removed: (0, 4)
+0 5
+(cand circuit / full) %: 50.5542
+Removed: (0, 5)
+0 6
+(cand circuit / full) %: 50.6273
+Removed: (0, 6)
+0 7
+(cand circuit / full) %: 50.6100
+Removed: (0, 7)
+0 8
+(cand circuit / full) %: 50.5420
+Removed: (0, 8)
+0 9
+(cand circuit / full) %: 50.1275
+Removed: (0, 9)
+0 10
+(cand circuit / full) %: 50.1847
+Removed: (0, 10)
+0 11
+(cand circuit / full) %: 50.1835
+Removed: (0, 11)
+0 12
+(cand circuit / full) %: 50.5971
+Removed: (0, 12)
+0 13
+(cand circuit / full) %: 50.6432
+Removed: (0, 13)
+0 14
+(cand circuit / full) %: 50.5091
+Removed: (0, 14)
+0 15
+(cand circuit / full) %: 50.3958
+Removed: (0, 15)
+
+fwd prune, iter  1
+0 0
+0 1
+0 2
+0 3
+0 4
+0 5
+0 6
+0 7
+0 8
+0 9
+0 10
+0 11
+0 12
+0 13
+0 14
+0 15
+0
+(cand circuit / full) %: -3.4372
+1 0
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+1 8
+1 9
+1 10
+1 11
+1 12
+1 13
+1 14
+1 15
+1
+(cand circuit / full) %: 47.6293
+2 0
+2 1
+2 2
+2 3
+2 4
+2 5
+2 6
+2 7
+2 8
+2 9
+2 10
+2 11
+2 12
+2 13
+2 14
+2 15
+2
+3 0
+(cand circuit / full) %: 49.4508
+3 1
+3 2
+(cand circuit / full) %: 49.7686
+3 3
+3 4
+3 5
+3 6
+3 7
+3 8
+3 9
+3 10
+3 11
+3 12
+3 13
+3 14
+3 15
+3
+(cand circuit / full) %: 46.9136
+4 0
+4 1
+(cand circuit / full) %: 50.3758
+Removed: (4, 1)
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+(cand circuit / full) %: 50.4651
+Removed: (4, 7)
+4 8
+(cand circuit / full) %: 50.0546
+Removed: (4, 8)
+4 9
+(cand circuit / full) %: 49.9839
+4 10
+4 11
+(cand circuit / full) %: 49.9693
+4 12
+4 13
+4 14
+4 15
+4
+5 0
+(cand circuit / full) %: 49.8344
+5 1
+(cand circuit / full) %: 50.0202
+Removed: (5, 1)
+5 2
+5 3
+(cand circuit / full) %: 49.9861
+5 4
+5 5
+(cand circuit / full) %: 49.7188
+5 6
+5 7
+5 8
+5 9
+5 10
+5 11
+5 12
+5 13
+5 14
+5 15
+5
+(cand circuit / full) %: 47.3678
+6 0
+(cand circuit / full) %: 47.8815
+6 1
+6 2
+6 3
+6 4
+(cand circuit / full) %: 49.3831
+6 5
+(cand circuit / full) %: 50.0349
+Removed: (6, 5)
+6 6
+6 7
+6 8
+6 9
+6 10
+6 11
+6 12
+6 13
+(cand circuit / full) %: 50.0792
+Removed: (6, 13)
+6 14
+6 15
+(cand circuit / full) %: 49.3475
+6
+(cand circuit / full) %: 44.2309
+7 0
+(cand circuit / full) %: 48.3374
+7 1
+(cand circuit / full) %: 49.4805
+7 2
+7 3
+7 4
+7 5
+(cand circuit / full) %: 50.1194
+Removed: (7, 5)
+7 6
+7 7
+7 8
+(cand circuit / full) %: 50.0779
+Removed: (7, 8)
+7 9
+7 10
+7 11
+(cand circuit / full) %: 49.6279
+7 12
+(cand circuit / full) %: 50.0188
+Removed: (7, 12)
+7 13
+7 14
+7 15
+7
+(cand circuit / full) %: 42.2271
+8 0
+(cand circuit / full) %: 49.8882
+8 1
+8 2
+8 3
+8 4
+8 5
+8 6
+8 7
+8 8
+8 9
+(cand circuit / full) %: 49.5763
+8 10
+(cand circuit / full) %: 32.4097
+8 11
+8 12
+(cand circuit / full) %: 49.7541
+8 13
+(cand circuit / full) %: 49.7976
+8 14
+(cand circuit / full) %: 49.0996
+8 15
+(cand circuit / full) %: 50.1399
+Removed: (8, 15)
+8
+(cand circuit / full) %: 48.9616
+9 0
+9 1
+(cand circuit / full) %: 50.1302
+Removed: (9, 1)
+9 2
+9 3
+(cand circuit / full) %: 49.6451
+9 4
+(cand circuit / full) %: 49.3395
+9 5
+9 6
+9 7
+(cand circuit / full) %: 48.9264
+9 8
+9 9
+(cand circuit / full) %: 49.3806
+9 10
+(cand circuit / full) %: 49.5996
+9 11
+9 12
+9 13
+(cand circuit / full) %: 51.4051
+Removed: (9, 13)
+9 14
+9 15
+(cand circuit / full) %: 50.8416
+Removed: (9, 15)
+9
+(cand circuit / full) %: 50.9530
+Removed: MLP  9
+10 0
+10 1
+10 2
+(cand circuit / full) %: 49.8082
+10 3
+(cand circuit / full) %: 50.3227
+Removed: (10, 3)
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+(cand circuit / full) %: 50.2147
+Removed: (10, 9)
+10 10
+(cand circuit / full) %: 48.9548
+10 11
+10 12
+(cand circuit / full) %: 49.7472
+10 13
+10 14
+(cand circuit / full) %: 41.2674
+10 15
+10
+(cand circuit / full) %: 39.9061
+11 0
+11 1
+(cand circuit / full) %: 49.6800
+11 2
+(cand circuit / full) %: 50.3614
+Removed: (11, 2)
+11 3
+(cand circuit / full) %: 49.2183
+11 4
+(cand circuit / full) %: 19.7168
+11 5
+(cand circuit / full) %: 44.6393
+11 6
+11 7
+11 8
+11 9
+11 10
+11 11
+11 12
+11 13
+11 14
+11 15
+11
+12 0
+12 1
+12 2
+12 3
+12 4
+(cand circuit / full) %: 49.7649
+12 5
+12 6
+12 7
+12 8
+12 9
+12 10
+12 11
+12 12
+(cand circuit / full) %: 46.6907
+12 13
+(cand circuit / full) %: 46.6374
+12 14
+12 15
+12
+(cand circuit / full) %: 44.9445
+13 0
+13 1
+13 2
+13 3
+13 4
+13 5
+13 6
+13 7
+13 8
+13 9
+13 10
+13 11
+13 12
+13 13
+(cand circuit / full) %: 46.7563
+13 14
+13 15
+13
+14 0
+14 1
+14 2
+14 3
+14 4
+14 5
+14 6
+14 7
+14 8
+14 9
+14 10
+14 11
+14 12
+14 13
+14 14
+(cand circuit / full) %: 20.3160
+14 15
+14
+15 0
+15 1
+15 2
+15 3
+15 4
+15 5
+(cand circuit / full) %: 49.5040
+15 6
+15 7
+(cand circuit / full) %: 48.9719
+15 8
+(cand circuit / full) %: 50.2740
+Removed: (15, 8)
+15 9
+15 10
+15 11
+15 12
+(cand circuit / full) %: 48.3294
+15 13
+15 14
+15 15
+15
+(cand circuit / full) %: 41.7066
+16 0
+16 1
+16 2
+16 3
+16 4
+16 5
+16 6
+16 7
+16 8
+16 9
+16 10
+16 11
+16 12
+16 13
+16 14
+16 15
+16
+(cand circuit / full) %: 30.6399
+17 0
+17 1
+17 2
+17 3
+17 4
+17 5
+17 6
+17 7
+17 8
+17 9
+17 10
+17 11
+17 12
+17 13
+17 14
+17 15
+17
+(cand circuit / full) %: 41.7347
+18 0
+18 1
+18 2
+18 3
+18 4
+18 5
+18 6
+18 7
+18 8
+18 9
+18 10
+18 11
+18 12
+18 13
+18 14
+18 15
+18
+(cand circuit / full) %: 39.7500
+19 0
+19 1
+19 2
+19 3
+19 4
+19 5
+19 6
+19 7
+19 8
+19 9
+19 10
+19 11
+19 12
+19 13
+19 14
+19 15
+19
+(cand circuit / full) %: 37.3491
+20 0
+20 1
+20 2
+20 3
+20 4
+20 5
+20 6
+20 7
+20 8
+20 9
+20 10
+20 11
+20 12
+20 13
+20 14
+20 15
+20
+(cand circuit / full) %: 34.6745
+21 0
+21 1
+21 2
+21 3
+21 4
+21 5
+21 6
+21 7
+21 8
+21 9
+21 10
+21 11
+21 12
+21 13
+21 14
+21 15
+21
+22 0
+22 1
+22 2
+22 3
+22 4
+22 5
+22 6
+22 7
+22 8
+22 9
+22 10
+22 11
+22 12
+22 13
+22 14
+22 15
+22
+23 0
+23 1
+23 2
+23 3
+23 4
+23 5
+23 6
+23 7
+23 8
+23 9
+23 10
+23 11
+23 12
+23 13
+23 14
+23 15
+23
+====================================
+Iteration 2
+====================================
+
+backw prune, iter  1
+23
+(cand circuit / full) %: 106.7047
+Removed: MLP  23
+23 0
+(cand circuit / full) %: 106.8571
+Removed: (23, 0)
+23 1
+(cand circuit / full) %: 106.4202
+Removed: (23, 1)
+23 2
+(cand circuit / full) %: 112.3503
+Removed: (23, 2)
+23 3
+(cand circuit / full) %: 112.1551
+Removed: (23, 3)
+23 4
+(cand circuit / full) %: 122.7208
+Removed: (23, 4)
+23 5
+(cand circuit / full) %: 98.5826
+Removed: (23, 5)
+23 6
+(cand circuit / full) %: 99.4790
+Removed: (23, 6)
+23 7
+(cand circuit / full) %: 91.6016
+Removed: (23, 7)
+23 8
+(cand circuit / full) %: 91.5804
+Removed: (23, 8)
+23 9
+(cand circuit / full) %: 91.8725
+Removed: (23, 9)
+23 10
+(cand circuit / full) %: 92.1945
+Removed: (23, 10)
+23 11
+(cand circuit / full) %: 92.2667
+Removed: (23, 11)
+23 12
+(cand circuit / full) %: 92.5510
+Removed: (23, 12)
+23 13
+(cand circuit / full) %: 92.7214
+Removed: (23, 13)
+23 14
+(cand circuit / full) %: 92.9553
+Removed: (23, 14)
+23 15
+(cand circuit / full) %: 94.0112
+Removed: (23, 15)
+22
+(cand circuit / full) %: 76.6306
+Removed: MLP  22
+22 0
+(cand circuit / full) %: 76.0993
+Removed: (22, 0)
+22 1
+(cand circuit / full) %: 76.0377
+Removed: (22, 1)
+22 2
+(cand circuit / full) %: 75.9606
+Removed: (22, 2)
+22 3
+(cand circuit / full) %: 76.0485
+Removed: (22, 3)
+22 4
+(cand circuit / full) %: 76.1873
+Removed: (22, 4)
+22 5
+(cand circuit / full) %: 76.2834
+Removed: (22, 5)
+22 6
+(cand circuit / full) %: 76.5012
+Removed: (22, 6)
+22 7
+(cand circuit / full) %: 76.3769
+Removed: (22, 7)
+22 8
+(cand circuit / full) %: 75.1217
+Removed: (22, 8)
+22 9
+(cand circuit / full) %: 75.2786
+Removed: (22, 9)
+22 10
+(cand circuit / full) %: 75.3858
+Removed: (22, 10)
+22 11
+(cand circuit / full) %: 75.3390
+Removed: (22, 11)
+22 12
+(cand circuit / full) %: 75.4385
+Removed: (22, 12)
+22 13
+(cand circuit / full) %: 75.9482
+Removed: (22, 13)
+22 14
+(cand circuit / full) %: 75.5179
+Removed: (22, 14)
+22 15
+(cand circuit / full) %: 75.6041
+Removed: (22, 15)
+21
+(cand circuit / full) %: 64.8395
+Removed: MLP  21
+21 0
+(cand circuit / full) %: 65.5721
+Removed: (21, 0)
+21 1
+(cand circuit / full) %: 65.1726
+Removed: (21, 1)
+21 2
+(cand circuit / full) %: 65.1796
+Removed: (21, 2)
+21 3
+(cand circuit / full) %: 65.1815
+Removed: (21, 3)
+21 4
+(cand circuit / full) %: 65.1678
+Removed: (21, 4)
+21 5
+(cand circuit / full) %: 65.1520
+Removed: (21, 5)
+21 6
+(cand circuit / full) %: 65.0837
+Removed: (21, 6)
+21 7
+(cand circuit / full) %: 65.5546
+Removed: (21, 7)
+21 8
+(cand circuit / full) %: 65.5493
+Removed: (21, 8)
+21 9
+(cand circuit / full) %: 65.5495
+Removed: (21, 9)
+21 10
+(cand circuit / full) %: 65.5379
+Removed: (21, 10)
+21 11
+(cand circuit / full) %: 65.5765
+Removed: (21, 11)
+21 12
+(cand circuit / full) %: 65.6590
+Removed: (21, 12)
+21 13
+(cand circuit / full) %: 65.5747
+Removed: (21, 13)
+21 14
+(cand circuit / full) %: 65.6916
+Removed: (21, 14)
+21 15
+(cand circuit / full) %: 65.6653
+Removed: (21, 15)
+20
+(cand circuit / full) %: 44.9455
+20 0
+(cand circuit / full) %: 65.7414
+Removed: (20, 0)
+20 1
+(cand circuit / full) %: 65.4977
+Removed: (20, 1)
+20 2
+(cand circuit / full) %: 65.5356
+Removed: (20, 2)
+20 3
+(cand circuit / full) %: 65.3875
+Removed: (20, 3)
+20 4
+(cand circuit / full) %: 65.3007
+Removed: (20, 4)
+20 5
+(cand circuit / full) %: 65.3568
+Removed: (20, 5)
+20 6
+(cand circuit / full) %: 65.3921
+Removed: (20, 6)
+20 7
+(cand circuit / full) %: 64.7922
+Removed: (20, 7)
+20 8
+(cand circuit / full) %: 65.8512
+Removed: (20, 8)
+20 9
+(cand circuit / full) %: 65.8489
+Removed: (20, 9)
+20 10
+(cand circuit / full) %: 65.8542
+Removed: (20, 10)
+20 11
+(cand circuit / full) %: 65.8779
+Removed: (20, 11)
+20 12
+(cand circuit / full) %: 65.8575
+Removed: (20, 12)
+20 13
+(cand circuit / full) %: 65.8381
+Removed: (20, 13)
+20 14
+(cand circuit / full) %: 65.8070
+Removed: (20, 14)
+20 15
+(cand circuit / full) %: 65.7986
+Removed: (20, 15)
+19
+(cand circuit / full) %: 50.6096
+Removed: MLP  19
+19 0
+(cand circuit / full) %: 50.6135
+Removed: (19, 0)
+19 1
+(cand circuit / full) %: 47.1387
+19 2
+(cand circuit / full) %: 50.5340
+Removed: (19, 2)
+19 3
+(cand circuit / full) %: 50.5322
+Removed: (19, 3)
+19 4
+(cand circuit / full) %: 50.5117
+Removed: (19, 4)
+19 5
+(cand circuit / full) %: 50.5395
+Removed: (19, 5)
+19 6
+(cand circuit / full) %: 50.5311
+Removed: (19, 6)
+19 7
+(cand circuit / full) %: 50.4908
+Removed: (19, 7)
+19 8
+(cand circuit / full) %: 50.5319
+Removed: (19, 8)
+19 9
+(cand circuit / full) %: 50.5090
+Removed: (19, 9)
+19 10
+(cand circuit / full) %: 50.5150
+Removed: (19, 10)
+19 11
+(cand circuit / full) %: 50.5523
+Removed: (19, 11)
+19 12
+(cand circuit / full) %: 48.9762
+19 13
+(cand circuit / full) %: 51.2290
+Removed: (19, 13)
+19 14
+(cand circuit / full) %: 51.2323
+Removed: (19, 14)
+19 15
+(cand circuit / full) %: 51.1981
+Removed: (19, 15)
+18
+(cand circuit / full) %: 43.1721
+18 0
+(cand circuit / full) %: 51.2072
+Removed: (18, 0)
+18 1
+(cand circuit / full) %: 51.0830
+Removed: (18, 1)
+18 2
+(cand circuit / full) %: 51.0400
+Removed: (18, 2)
+18 3
+(cand circuit / full) %: 50.7800
+Removed: (18, 3)
+18 4
+(cand circuit / full) %: 50.8014
+Removed: (18, 4)
+18 5
+(cand circuit / full) %: 50.9017
+Removed: (18, 5)
+18 6
+(cand circuit / full) %: 50.8424
+Removed: (18, 6)
+18 7
+(cand circuit / full) %: 50.8873
+Removed: (18, 7)
+18 8
+(cand circuit / full) %: 50.8885
+Removed: (18, 8)
+18 9
+(cand circuit / full) %: 50.4158
+Removed: (18, 9)
+18 10
+(cand circuit / full) %: 50.5097
+Removed: (18, 10)
+18 11
+(cand circuit / full) %: 48.8426
+18 12
+(cand circuit / full) %: 50.4567
+Removed: (18, 12)
+18 13
+(cand circuit / full) %: 50.4423
+Removed: (18, 13)
+18 14
+(cand circuit / full) %: 50.3519
+Removed: (18, 14)
+18 15
+(cand circuit / full) %: 50.6109
+Removed: (18, 15)
+17
+(cand circuit / full) %: 44.5686
+17 0
+(cand circuit / full) %: 50.7106
+Removed: (17, 0)
+17 1
+(cand circuit / full) %: 50.3057
+Removed: (17, 1)
+17 2
+(cand circuit / full) %: 50.4253
+Removed: (17, 2)
+17 3
+(cand circuit / full) %: 50.1038
+Removed: (17, 3)
+17 4
+(cand circuit / full) %: 50.7047
+Removed: (17, 4)
+17 5
+(cand circuit / full) %: 49.8894
+17 6
+(cand circuit / full) %: 50.5424
+Removed: (17, 6)
+17 7
+(cand circuit / full) %: 50.4900
+Removed: (17, 7)
+17 8
+(cand circuit / full) %: 50.5408
+Removed: (17, 8)
+17 9
+(cand circuit / full) %: 50.5084
+Removed: (17, 9)
+17 10
+(cand circuit / full) %: 50.5079
+Removed: (17, 10)
+17 11
+(cand circuit / full) %: 50.7479
+Removed: (17, 11)
+17 12
+(cand circuit / full) %: 48.4604
+17 13
+(cand circuit / full) %: 50.3812
+Removed: (17, 13)
+17 14
+(cand circuit / full) %: 50.4120
+Removed: (17, 14)
+17 15
+(cand circuit / full) %: 50.2755
+Removed: (17, 15)
+16
+(cand circuit / full) %: 33.2824
+16 0
+(cand circuit / full) %: 50.3891
+Removed: (16, 0)
+16 1
+(cand circuit / full) %: 50.2974
+Removed: (16, 1)
+16 2
+(cand circuit / full) %: 50.3073
+Removed: (16, 2)
+16 3
+(cand circuit / full) %: 50.4769
+Removed: (16, 3)
+16 4
+(cand circuit / full) %: 50.4713
+Removed: (16, 4)
+16 5
+(cand circuit / full) %: 50.4140
+Removed: (16, 5)
+16 6
+(cand circuit / full) %: 50.7089
+Removed: (16, 6)
+16 7
+(cand circuit / full) %: 50.1083
+Removed: (16, 7)
+16 8
+(cand circuit / full) %: 50.2317
+Removed: (16, 8)
+16 9
+(cand circuit / full) %: 50.2741
+Removed: (16, 9)
+16 10
+(cand circuit / full) %: 50.2427
+Removed: (16, 10)
+16 11
+(cand circuit / full) %: 50.2443
+Removed: (16, 11)
+16 12
+(cand circuit / full) %: 50.1413
+Removed: (16, 12)
+16 13
+(cand circuit / full) %: 49.8863
+16 14
+(cand circuit / full) %: 49.7129
+16 15
+(cand circuit / full) %: 50.0537
+Removed: (16, 15)
+15
+(cand circuit / full) %: 46.3968
+15 0
+(cand circuit / full) %: 50.0520
+Removed: (15, 0)
+15 1
+(cand circuit / full) %: 49.9870
+15 2
+(cand circuit / full) %: 48.5732
+15 3
+(cand circuit / full) %: 49.9907
+15 4
+(cand circuit / full) %: 50.1143
+Removed: (15, 4)
+15 5
+(cand circuit / full) %: 49.3282
+15 6
+(cand circuit / full) %: 50.2061
+Removed: (15, 6)
+15 7
+(cand circuit / full) %: 50.1807
+Removed: (15, 7)
+15 8
+(cand circuit / full) %: 49.5933
+15 9
+(cand circuit / full) %: 50.2500
+Removed: (15, 9)
+15 10
+(cand circuit / full) %: 49.7777
+15 11
+(cand circuit / full) %: 50.2193
+Removed: (15, 11)
+15 12
+(cand circuit / full) %: 47.9374
+15 13
+(cand circuit / full) %: 50.2557
+Removed: (15, 13)
+15 14
+(cand circuit / full) %: 53.0007
+Removed: (15, 14)
+15 15
+(cand circuit / full) %: 52.9645
+Removed: (15, 15)
+14
+(cand circuit / full) %: 54.9684
+Removed: MLP  14
+14 0
+(cand circuit / full) %: 55.2728
+Removed: (14, 0)
+14 1
+(cand circuit / full) %: 55.2731
+Removed: (14, 1)
+14 2
+(cand circuit / full) %: 55.4359
+Removed: (14, 2)
+14 3
+(cand circuit / full) %: 55.4008
+Removed: (14, 3)
+14 4
+(cand circuit / full) %: 55.1598
+Removed: (14, 4)
+14 5
+(cand circuit / full) %: 52.9797
+Removed: (14, 5)
+14 6
+(cand circuit / full) %: 52.3126
+Removed: (14, 6)
+14 7
+(cand circuit / full) %: 53.0841
+Removed: (14, 7)
+14 8
+(cand circuit / full) %: 53.8036
+Removed: (14, 8)
+14 9
+(cand circuit / full) %: 53.7481
+Removed: (14, 9)
+14 10
+(cand circuit / full) %: 53.6024
+Removed: (14, 10)
+14 11
+(cand circuit / full) %: 51.7045
+Removed: (14, 11)
+14 12
+(cand circuit / full) %: 51.7605
+Removed: (14, 12)
+14 13
+(cand circuit / full) %: 51.6684
+Removed: (14, 13)
+14 14
+(cand circuit / full) %: 32.9467
+14 15
+(cand circuit / full) %: 51.7090
+Removed: (14, 15)
+13
+(cand circuit / full) %: 52.9068
+Removed: MLP  13
+13 0
+(cand circuit / full) %: 50.3686
+Removed: (13, 0)
+13 1
+(cand circuit / full) %: 50.9389
+Removed: (13, 1)
+13 2
+(cand circuit / full) %: 50.7816
+Removed: (13, 2)
+13 3
+(cand circuit / full) %: 50.4269
+Removed: (13, 3)
+13 4
+(cand circuit / full) %: 51.1607
+Removed: (13, 4)
+13 5
+(cand circuit / full) %: 50.8098
+Removed: (13, 5)
+13 6
+(cand circuit / full) %: 50.7396
+Removed: (13, 6)
+13 7
+(cand circuit / full) %: 51.1052
+Removed: (13, 7)
+13 8
+(cand circuit / full) %: 50.8581
+Removed: (13, 8)
+13 9
+(cand circuit / full) %: 51.8291
+Removed: (13, 9)
+13 10
+(cand circuit / full) %: 51.7383
+Removed: (13, 10)
+13 11
+(cand circuit / full) %: 51.7053
+Removed: (13, 11)
+13 12
+(cand circuit / full) %: 47.8814
+13 13
+(cand circuit / full) %: 49.7908
+13 14
+(cand circuit / full) %: 51.3140
+Removed: (13, 14)
+13 15
+(cand circuit / full) %: 51.3347
+Removed: (13, 15)
+12
+(cand circuit / full) %: 46.2368
+12 0
+(cand circuit / full) %: 51.3366
+Removed: (12, 0)
+12 1
+(cand circuit / full) %: 51.1913
+Removed: (12, 1)
+12 2
+(cand circuit / full) %: 51.2920
+Removed: (12, 2)
+12 3
+(cand circuit / full) %: 50.7040
+Removed: (12, 3)
+12 4
+(cand circuit / full) %: 48.0155
+12 5
+(cand circuit / full) %: 50.9566
+Removed: (12, 5)
+12 6
+(cand circuit / full) %: 51.1730
+Removed: (12, 6)
+12 7
+(cand circuit / full) %: 51.1042
+Removed: (12, 7)
+12 8
+(cand circuit / full) %: 51.0914
+Removed: (12, 8)
+12 9
+(cand circuit / full) %: 52.6248
+Removed: (12, 9)
+12 10
+(cand circuit / full) %: 53.0680
+Removed: (12, 10)
+12 11
+(cand circuit / full) %: 53.0304
+Removed: (12, 11)
+12 12
+(cand circuit / full) %: 49.3750
+12 13
+(cand circuit / full) %: 49.1736
+12 14
+(cand circuit / full) %: 53.0577
+Removed: (12, 14)
+12 15
+(cand circuit / full) %: 52.4481
+Removed: (12, 15)
+11
+(cand circuit / full) %: 48.8415
+11 0
+(cand circuit / full) %: 52.2800
+Removed: (11, 0)
+11 1
+(cand circuit / full) %: 52.7218
+Removed: (11, 1)
+11 2
+(cand circuit / full) %: 53.0779
+Removed: (11, 2)
+11 3
+(cand circuit / full) %: 52.2561
+Removed: (11, 3)
+11 4
+(cand circuit / full) %: 38.8462
+11 5
+(cand circuit / full) %: 48.9711
+11 6
+(cand circuit / full) %: 52.0197
+Removed: (11, 6)
+11 7
+(cand circuit / full) %: 51.6002
+Removed: (11, 7)
+11 8
+(cand circuit / full) %: 51.7899
+Removed: (11, 8)
+11 9
+(cand circuit / full) %: 52.2715
+Removed: (11, 9)
+11 10
+(cand circuit / full) %: 52.5450
+Removed: (11, 10)
+11 11
+(cand circuit / full) %: 52.4498
+Removed: (11, 11)
+11 12
+(cand circuit / full) %: 52.4008
+Removed: (11, 12)
+11 13
+(cand circuit / full) %: 53.7389
+Removed: (11, 13)
+11 14
+(cand circuit / full) %: 52.6853
+Removed: (11, 14)
+11 15
+(cand circuit / full) %: 53.2339
+Removed: (11, 15)
+10
+(cand circuit / full) %: 48.8827
+10 0
+(cand circuit / full) %: 53.7577
+Removed: (10, 0)
+10 1
+(cand circuit / full) %: 53.2729
+Removed: (10, 1)
+10 2
+(cand circuit / full) %: 52.5848
+Removed: (10, 2)
+10 3
+(cand circuit / full) %: 51.5579
+Removed: (10, 3)
+10 4
+(cand circuit / full) %: 53.4292
+Removed: (10, 4)
+10 5
+(cand circuit / full) %: 53.2491
+Removed: (10, 5)
+10 6
+(cand circuit / full) %: 52.8091
+Removed: (10, 6)
+10 7
+(cand circuit / full) %: 52.8499
+Removed: (10, 7)
+10 8
+(cand circuit / full) %: 51.7686
+Removed: (10, 8)
+10 9
+(cand circuit / full) %: 52.1116
+Removed: (10, 9)
+10 10
+(cand circuit / full) %: 51.2269
+Removed: (10, 10)
+10 11
+(cand circuit / full) %: 50.9449
+Removed: (10, 11)
+10 12
+(cand circuit / full) %: 50.5966
+Removed: (10, 12)
+10 13
+(cand circuit / full) %: 51.1427
+Removed: (10, 13)
+10 14
+(cand circuit / full) %: 45.6176
+10 15
+(cand circuit / full) %: 51.1150
+Removed: (10, 15)
+9
+(cand circuit / full) %: 49.7847
+9 0
+(cand circuit / full) %: 51.0478
+Removed: (9, 0)
+9 1
+(cand circuit / full) %: 50.6880
+Removed: (9, 1)
+9 2
+(cand circuit / full) %: 50.5627
+Removed: (9, 2)
+9 3
+(cand circuit / full) %: 50.8405
+Removed: (9, 3)
+9 4
+(cand circuit / full) %: 49.2291
+9 5
+(cand circuit / full) %: 50.3814
+Removed: (9, 5)
+9 6
+(cand circuit / full) %: 50.0799
+Removed: (9, 6)
+9 7
+(cand circuit / full) %: 50.2208
+Removed: (9, 7)
+9 8
+(cand circuit / full) %: 50.0697
+Removed: (9, 8)
+9 9
+(cand circuit / full) %: 49.9693
+9 10
+(cand circuit / full) %: 49.6622
+9 11
+(cand circuit / full) %: 49.9432
+9 12
+(cand circuit / full) %: 50.1288
+Removed: (9, 12)
+9 13
+(cand circuit / full) %: 50.8544
+Removed: (9, 13)
+9 14
+(cand circuit / full) %: 50.9759
+Removed: (9, 14)
+9 15
+(cand circuit / full) %: 50.6066
+Removed: (9, 15)
+8
+(cand circuit / full) %: 49.4693
+8 0
+(cand circuit / full) %: 50.3082
+Removed: (8, 0)
+8 1
+(cand circuit / full) %: 49.9612
+8 2
+(cand circuit / full) %: 50.1329
+Removed: (8, 2)
+8 3
+(cand circuit / full) %: 50.4245
+Removed: (8, 3)
+8 4
+(cand circuit / full) %: 50.1755
+Removed: (8, 4)
+8 5
+(cand circuit / full) %: 50.4810
+Removed: (8, 5)
+8 6
+(cand circuit / full) %: 50.7516
+Removed: (8, 6)
+8 7
+(cand circuit / full) %: 50.9295
+Removed: (8, 7)
+8 8
+(cand circuit / full) %: 50.9433
+Removed: (8, 8)
+8 9
+(cand circuit / full) %: 51.2573
+Removed: (8, 9)
+8 10
+(cand circuit / full) %: 41.9828
+8 11
+(cand circuit / full) %: 50.9662
+Removed: (8, 11)
+8 12
+(cand circuit / full) %: 50.8179
+Removed: (8, 12)
+8 13
+(cand circuit / full) %: 50.3738
+Removed: (8, 13)
+8 14
+(cand circuit / full) %: 50.4133
+Removed: (8, 14)
+8 15
+(cand circuit / full) %: 50.3197
+Removed: (8, 15)
+7
+(cand circuit / full) %: 45.1875
+7 0
+(cand circuit / full) %: 50.1157
+Removed: (7, 0)
+7 1
+(cand circuit / full) %: 50.3247
+Removed: (7, 1)
+7 2
+(cand circuit / full) %: 49.4934
+7 3
+(cand circuit / full) %: 50.3841
+Removed: (7, 3)
+7 4
+(cand circuit / full) %: 51.0787
+Removed: (7, 4)
+7 5
+(cand circuit / full) %: 50.6371
+Removed: (7, 5)
+7 6
+(cand circuit / full) %: 50.8037
+Removed: (7, 6)
+7 7
+(cand circuit / full) %: 51.0181
+Removed: (7, 7)
+7 8
+(cand circuit / full) %: 50.8469
+Removed: (7, 8)
+7 9
+(cand circuit / full) %: 50.3111
+Removed: (7, 9)
+7 10
+(cand circuit / full) %: 50.2165
+Removed: (7, 10)
+7 11
+(cand circuit / full) %: 49.7643
+7 12
+(cand circuit / full) %: 50.2818
+Removed: (7, 12)
+7 13
+(cand circuit / full) %: 50.1160
+Removed: (7, 13)
+7 14
+(cand circuit / full) %: 50.2499
+Removed: (7, 14)
+7 15
+(cand circuit / full) %: 50.0133
+Removed: (7, 15)
+6
+(cand circuit / full) %: 36.5937
+6 0
+(cand circuit / full) %: 45.9965
+6 1
+(cand circuit / full) %: 49.8094
+6 2
+(cand circuit / full) %: 50.3943
+Removed: (6, 2)
+6 3
+(cand circuit / full) %: 50.4444
+Removed: (6, 3)
+6 4
+(cand circuit / full) %: 50.0302
+Removed: (6, 4)
+6 5
+(cand circuit / full) %: 48.6461
+6 6
+(cand circuit / full) %: 50.1524
+Removed: (6, 6)
+6 7
+(cand circuit / full) %: 49.8484
+6 8
+(cand circuit / full) %: 50.3884
+Removed: (6, 8)
+6 9
+(cand circuit / full) %: 49.3910
+6 10
+(cand circuit / full) %: 49.8309
+6 11
+(cand circuit / full) %: 49.8178
+6 12
+(cand circuit / full) %: 50.2678
+Removed: (6, 12)
+6 13
+(cand circuit / full) %: 50.2845
+Removed: (6, 13)
+6 14
+(cand circuit / full) %: 50.0161
+Removed: (6, 14)
+6 15
+(cand circuit / full) %: 49.1154
+5
+(cand circuit / full) %: 44.3569
+5 0
+(cand circuit / full) %: 50.3278
+Removed: (5, 0)
+5 1
+(cand circuit / full) %: 50.4926
+Removed: (5, 1)
+5 2
+(cand circuit / full) %: 50.3936
+Removed: (5, 2)
+5 3
+(cand circuit / full) %: 50.2924
+Removed: (5, 3)
+5 4
+(cand circuit / full) %: 49.9776
+5 5
+(cand circuit / full) %: 49.7900
+5 6
+(cand circuit / full) %: 50.4640
+Removed: (5, 6)
+5 7
+(cand circuit / full) %: 49.8507
+5 8
+(cand circuit / full) %: 49.3052
+5 9
+(cand circuit / full) %: 50.7049
+Removed: (5, 9)
+5 10
+(cand circuit / full) %: 50.9704
+Removed: (5, 10)
+5 11
+(cand circuit / full) %: 50.2082
+Removed: (5, 11)
+5 12
+(cand circuit / full) %: 50.4626
+Removed: (5, 12)
+5 13
+(cand circuit / full) %: 50.5519
+Removed: (5, 13)
+5 14
+(cand circuit / full) %: 50.5400
+Removed: (5, 14)
+5 15
+(cand circuit / full) %: 50.6733
+Removed: (5, 15)
+4
+(cand circuit / full) %: 48.2656
+4 0
+(cand circuit / full) %: 50.4491
+Removed: (4, 0)
+4 1
+(cand circuit / full) %: 50.7437
+Removed: (4, 1)
+4 2
+(cand circuit / full) %: 50.2224
+Removed: (4, 2)
+4 3
+(cand circuit / full) %: 50.5416
+Removed: (4, 3)
+4 4
+(cand circuit / full) %: 50.3247
+Removed: (4, 4)
+4 5
+(cand circuit / full) %: 50.7040
+Removed: (4, 5)
+4 6
+(cand circuit / full) %: 50.6962
+Removed: (4, 6)
+4 7
+(cand circuit / full) %: 50.5792
+Removed: (4, 7)
+4 8
+(cand circuit / full) %: 50.9570
+Removed: (4, 8)
+4 9
+(cand circuit / full) %: 50.3219
+Removed: (4, 9)
+4 10
+(cand circuit / full) %: 49.6784
+4 11
+(cand circuit / full) %: 50.0542
+Removed: (4, 11)
+4 12
+(cand circuit / full) %: 49.8535
+4 13
+(cand circuit / full) %: 49.2111
+4 14
+(cand circuit / full) %: 50.3245
+Removed: (4, 14)
+4 15
+(cand circuit / full) %: 50.3085
+Removed: (4, 15)
+3
+(cand circuit / full) %: 50.7632
+Removed: MLP  3
+3 0
+(cand circuit / full) %: 49.9718
+3 1
+(cand circuit / full) %: 50.6941
+Removed: (3, 1)
+3 2
+(cand circuit / full) %: 50.0616
+Removed: (3, 2)
+3 3
+(cand circuit / full) %: 49.7460
+3 4
+(cand circuit / full) %: 50.1909
+Removed: (3, 4)
+3 5
+(cand circuit / full) %: 50.1293
+Removed: (3, 5)
+3 6
+(cand circuit / full) %: 50.1571
+Removed: (3, 6)
+3 7
+(cand circuit / full) %: 50.3070
+Removed: (3, 7)
+3 8
+(cand circuit / full) %: 50.1493
+Removed: (3, 8)
+3 9
+(cand circuit / full) %: 50.2573
+Removed: (3, 9)
+3 10
+(cand circuit / full) %: 50.2389
+Removed: (3, 10)
+3 11
+(cand circuit / full) %: 50.0708
+Removed: (3, 11)
+3 12
+(cand circuit / full) %: 48.7658
+3 13
+(cand circuit / full) %: 49.7148
+3 14
+(cand circuit / full) %: 50.0994
+Removed: (3, 14)
+3 15
+(cand circuit / full) %: 49.9256
+2
+(cand circuit / full) %: 49.6228
+2 0
+(cand circuit / full) %: 50.0560
+Removed: (2, 0)
+2 1
+(cand circuit / full) %: 50.0261
+Removed: (2, 1)
+2 2
+(cand circuit / full) %: 50.5777
+Removed: (2, 2)
+2 3
+(cand circuit / full) %: 50.6163
+Removed: (2, 3)
+2 4
+(cand circuit / full) %: 50.3462
+Removed: (2, 4)
+2 5
+(cand circuit / full) %: 50.2591
+Removed: (2, 5)
+2 6
+(cand circuit / full) %: 50.4521
+Removed: (2, 6)
+2 7
+(cand circuit / full) %: 50.4487
+Removed: (2, 7)
+2 8
+(cand circuit / full) %: 50.1102
+Removed: (2, 8)
+2 9
+(cand circuit / full) %: 50.2261
+Removed: (2, 9)
+2 10
+(cand circuit / full) %: 50.2868
+Removed: (2, 10)
+2 11
+(cand circuit / full) %: 50.3706
+Removed: (2, 11)
+2 12
+(cand circuit / full) %: 50.4121
+Removed: (2, 12)
+2 13
+(cand circuit / full) %: 50.2416
+Removed: (2, 13)
+2 14
+(cand circuit / full) %: 49.9263
+2 15
+(cand circuit / full) %: 50.4305
+Removed: (2, 15)
+1
+(cand circuit / full) %: 47.4292
+1 0
+(cand circuit / full) %: 50.3598
+Removed: (1, 0)
+1 1
+(cand circuit / full) %: 50.5704
+Removed: (1, 1)
+1 2
+(cand circuit / full) %: 50.3387
+Removed: (1, 2)
+1 3
+(cand circuit / full) %: 50.3259
+Removed: (1, 3)
+1 4
+(cand circuit / full) %: 50.5406
+Removed: (1, 4)
+1 5
+(cand circuit / full) %: 50.6237
+Removed: (1, 5)
+1 6
+(cand circuit / full) %: 50.6377
+Removed: (1, 6)
+1 7
+(cand circuit / full) %: 50.5289
+Removed: (1, 7)
+1 8
+(cand circuit / full) %: 50.3500
+Removed: (1, 8)
+1 9
+(cand circuit / full) %: 49.9167
+1 10
+(cand circuit / full) %: 50.3106
+Removed: (1, 10)
+1 11
+(cand circuit / full) %: 50.0614
+Removed: (1, 11)
+1 12
+(cand circuit / full) %: 49.7451
+1 13
+(cand circuit / full) %: 50.1553
+Removed: (1, 13)
+1 14
+(cand circuit / full) %: 50.0746
+Removed: (1, 14)
+1 15
+(cand circuit / full) %: 50.0830
+Removed: (1, 15)
+0
+(cand circuit / full) %: -2.7271
+0 0
+(cand circuit / full) %: 50.3643
+Removed: (0, 0)
+0 1
+(cand circuit / full) %: 50.8895
+Removed: (0, 1)
+0 2
+(cand circuit / full) %: 50.8698
+Removed: (0, 2)
+0 3
+(cand circuit / full) %: 50.8347
+Removed: (0, 3)
+0 4
+(cand circuit / full) %: 50.9298
+Removed: (0, 4)
+0 5
+(cand circuit / full) %: 50.8867
+Removed: (0, 5)
+0 6
+(cand circuit / full) %: 50.7931
+Removed: (0, 6)
+0 7
+(cand circuit / full) %: 50.8234
+Removed: (0, 7)
+0 8
+(cand circuit / full) %: 50.6529
+Removed: (0, 8)
+0 9
+(cand circuit / full) %: 50.3413
+Removed: (0, 9)
+0 10
+(cand circuit / full) %: 50.5650
+Removed: (0, 10)
+0 11
+(cand circuit / full) %: 50.5251
+Removed: (0, 11)
+0 12
+(cand circuit / full) %: 50.5988
+Removed: (0, 12)
+0 13
+(cand circuit / full) %: 50.6360
+Removed: (0, 13)
+0 14
+(cand circuit / full) %: 50.4365
+Removed: (0, 14)
+0 15
+(cand circuit / full) %: 50.4229
+Removed: (0, 15)
+
+fwd prune, iter  1
+0 0
+0 1
+0 2
+0 3
+0 4
+0 5
+0 6
+0 7
+0 8
+0 9
+0 10
+0 11
+0 12
+0 13
+0 14
+0 15
+0
+(cand circuit / full) %: -2.7355
+1 0
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+1 8
+1 9
+(cand circuit / full) %: 49.5643
+1 10
+1 11
+1 12
+(cand circuit / full) %: 49.8384
+1 13
+1 14
+1 15
+1
+(cand circuit / full) %: 47.5626
+2 0
+2 1
+2 2
+2 3
+2 4
+2 5
+2 6
+2 7
+2 8
+2 9
+2 10
+2 11
+2 12
+2 13
+2 14
+(cand circuit / full) %: 49.7037
+2 15
+2
+(cand circuit / full) %: 49.5785
+3 0
+(cand circuit / full) %: 49.4771
+3 1
+3 2
+3 3
+(cand circuit / full) %: 50.3866
+Removed: (3, 3)
+3 4
+3 5
+3 6
+3 7
+3 8
+3 9
+3 10
+3 11
+3 12
+(cand circuit / full) %: 47.6976
+3 13
+(cand circuit / full) %: 49.9938
+3 14
+3 15
+(cand circuit / full) %: 50.1264
+Removed: (3, 15)
+3
+4 0
+4 1
+4 2
+4 3
+4 4
+4 5
+4 6
+4 7
+4 8
+4 9
+4 10
+(cand circuit / full) %: 49.9369
+4 11
+4 12
+(cand circuit / full) %: 49.8768
+4 13
+(cand circuit / full) %: 49.0340
+4 14
+4 15
+4
+(cand circuit / full) %: 46.3504
+5 0
+5 1
+5 2
+5 3
+5 4
+(cand circuit / full) %: 49.3453
+5 5
+(cand circuit / full) %: 50.1327
+Removed: (5, 5)
+5 6
+5 7
+(cand circuit / full) %: 49.0059
+5 8
+(cand circuit / full) %: 49.2034
+5 9
+5 10
+5 11
+5 12
+5 13
+5 14
+5 15
+5
+(cand circuit / full) %: 46.1415
+6 0
+(cand circuit / full) %: 47.6241
+6 1
+(cand circuit / full) %: 50.3839
+Removed: (6, 1)
+6 2
+6 3
+6 4
+6 5
+(cand circuit / full) %: 50.2350
+Removed: (6, 5)
+6 6
+6 7
+(cand circuit / full) %: 49.1657
+6 8
+6 9
+(cand circuit / full) %: 50.0069
+Removed: (6, 9)
+6 10
+(cand circuit / full) %: 50.2270
+Removed: (6, 10)
+6 11
+(cand circuit / full) %: 48.9347
+6 12
+6 13
+6 14
+6 15
+(cand circuit / full) %: 49.6165
+6
+(cand circuit / full) %: 44.2305
+7 0
+7 1
+7 2
+(cand circuit / full) %: 49.9732
+7 3
+7 4
+7 5
+7 6
+7 7
+7 8
+7 9
+7 10
+7 11
+(cand circuit / full) %: 49.4379
+7 12
+7 13
+7 14
+7 15
+7
+(cand circuit / full) %: 38.8765
+8 0
+8 1
+(cand circuit / full) %: 48.7096
+8 2
+8 3
+8 4
+8 5
+8 6
+8 7
+8 8
+8 9
+8 10
+(cand circuit / full) %: 26.8032
+8 11
+8 12
+8 13
+8 14
+8 15
+8
+(cand circuit / full) %: 46.9909
+9 0
+9 1
+9 2
+9 3
+9 4
+(cand circuit / full) %: 47.7766
+9 5
+9 6
+9 7
+9 8
+9 9
+(cand circuit / full) %: 50.0245
+Removed: (9, 9)
+9 10
+(cand circuit / full) %: 49.8588
+9 11
+(cand circuit / full) %: 50.0890
+Removed: (9, 11)
+9 12
+9 13
+9 14
+9 15
+9
+(cand circuit / full) %: 46.8573
+10 0
+10 1
+10 2
+10 3
+10 4
+10 5
+10 6
+10 7
+10 8
+10 9
+10 10
+10 11
+10 12
+10 13
+10 14
+(cand circuit / full) %: 41.6995
+10 15
+10
+(cand circuit / full) %: 43.4251
+11 0
+11 1
+11 2
+11 3
+11 4
+(cand circuit / full) %: 22.1004
+11 5
+(cand circuit / full) %: 47.4402
+11 6
+11 7
+11 8
+11 9
+11 10
+11 11
+11 12
+11 13
+11 14
+11 15
+11
+(cand circuit / full) %: 44.4523
+12 0
+12 1
+12 2
+12 3
+12 4
+(cand circuit / full) %: 47.4780
+12 5
+12 6
+12 7
+12 8
+12 9
+12 10
+12 11
+12 12
+(cand circuit / full) %: 46.8057
+12 13
+(cand circuit / full) %: 44.8019
+12 14
+12 15
+12
+(cand circuit / full) %: 45.6644
+13 0
+13 1
+13 2
+13 3
+13 4
+13 5
+13 6
+13 7
+13 8
+13 9
+13 10
+13 11
+13 12
+(cand circuit / full) %: 45.5726
+13 13
+(cand circuit / full) %: 47.7033
+13 14
+13 15
+13
+14 0
+14 1
+14 2
+14 3
+14 4
+14 5
+14 6
+14 7
+14 8
+14 9
+14 10
+14 11
+14 12
+14 13
+14 14
+(cand circuit / full) %: 30.3573
+14 15
+14
+15 0
+15 1
+(cand circuit / full) %: 50.0044
+Removed: (15, 1)
+15 2
+(cand circuit / full) %: 49.3113
+15 3
+(cand circuit / full) %: 49.9087
+15 4
+15 5
+(cand circuit / full) %: 49.1201
+15 6
+15 7
+15 8
+(cand circuit / full) %: 49.8393
+15 9
+15 10
+(cand circuit / full) %: 49.8651
+15 11
+15 12
+(cand circuit / full) %: 48.1484
+15 13
+15 14
+15 15
+15
+(cand circuit / full) %: 44.3569
+16 0
+16 1
+16 2
+16 3
+16 4
+16 5
+16 6
+16 7
+16 8
+16 9
+16 10
+16 11
+16 12
+16 13
+(cand circuit / full) %: 49.7956
+16 14
+(cand circuit / full) %: 49.2832
+16 15
+16
+(cand circuit / full) %: 36.0652
+17 0
+17 1
+17 2
+17 3
+17 4
+17 5
+(cand circuit / full) %: 48.3790
+17 6
+17 7
+17 8
+17 9
+17 10
+17 11
+17 12
+(cand circuit / full) %: 48.7747
+17 13
+17 14
+17 15
+17
+(cand circuit / full) %: 44.8214
+18 0
+18 1
+18 2
+18 3
+18 4
+18 5
+18 6
+18 7
+18 8
+18 9
+18 10
+18 11
+(cand circuit / full) %: 49.0004
+18 12
+18 13
+18 14
+18 15
+18
+(cand circuit / full) %: 42.5707
+19 0
+19 1
+(cand circuit / full) %: 45.3776
+19 2
+19 3
+19 4
+19 5
+19 6
+19 7
+19 8
+19 9
+19 10
+19 11
+19 12
+(cand circuit / full) %: 49.3957
+19 13
+19 14
+19 15
+19
+20 0
+20 1
+20 2
+20 3
+20 4
+20 5
+20 6
+20 7
+20 8
+20 9
+20 10
+20 11
+20 12
+20 13
+20 14
+20 15
+20
+(cand circuit / full) %: 35.5721
+21 0
+21 1
+21 2
+21 3
+21 4
+21 5
+21 6
+21 7
+21 8
+21 9
+21 10
+21 11
+21 12
+21 13
+21 14
+21 15
+21
+22 0
+22 1
+22 2
+22 3
+22 4
+22 5
+22 6
+22 7
+22 8
+22 9
+22 10
+22 11
+22 12
+22 13
+22 14
+22 15
+22
+23 0
+23 1
+23 2
+23 3
+23 4
+23 5
+23 6
+23 7
+23 8
+23 9
+23 10
+23 11
+23 12
+23 13
+23 14
+23 15
+23
+====================================

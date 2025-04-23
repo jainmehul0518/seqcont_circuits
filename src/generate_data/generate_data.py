@@ -92,6 +92,33 @@ def replace_nw_seqtype(data_list, repl_type):
         repl_dict = {'one': '2', 'two': '4', 'three': '6', 'four': '8', 'five': '10', 'six': '12', 'seven': '14', 'eight': '16', 'nine': '18', 'ten': '20', 'eleven': '22', 'twelve': '24'}
     elif repl_type == "numerals_step_3":
         repl_dict = {'one': '1', 'two': '4', 'three': '7', 'four': '10', 'five': '13', 'six': '16', 'seven': '19', 'eight': '22', 'nine': '25', 'ten': '28', 'eleven': '31', 'twelve': '34'}
+    elif repl_type == "numerals_times_2":
+        repl_dict = {'one': '1', 'two': '2', 'three': '4', 'four': '8', 'five': '16', 'six': '32', 'seven': '64', 'eight': '128', 'nine': '256', 'ten': '512', 'eleven': '1024', 'twelve': '2048'}
+    elif repl_type == "numerals_alternate":
+        repl_dict = {'one': '1', 'two': '2', 'three': '1', 'four': '2', 'five': '1', 'six': '2', 'seven': '1', 'eight': '2', 'nine': '1', 'ten': '2', 'eleven': '1', 'twelve': '2'}
+    elif repl_type == "decimal_ascend":
+        repl_dict = {'one': '0.0', 'two': '0.5', 'three': '1.0', 'four': '1.5', 'five': '2.0', 'six': '2.5', 'seven': '3.0', 'eight': '3.5', 'nine': '4.0', 'ten': '4.5', 'eleven': '5.0', 'twelve': '5.5'}
+    elif repl_type == 'fibonacci':
+        repl_dict = {
+            'one': '1',   'two': '1',   'three': '2',  'four': '3',
+            'five': '5',  'six': '8',   'seven': '13', 'eight': '21',
+            'nine': '34','ten': '55','eleven': '89','twelve': '144'
+        }
+    elif repl_type == 'fibonacci_words':
+        repl_dict = {
+            'one': 'one',   'two': 'one',    'three': 'two',   'four': 'three',
+            'five': 'five', 'six': 'eight',  'seven': 'thirteen',
+            'eight': 'twenty one','nine': 'thirty four',
+            'ten': 'fifty five','eleven': 'eighty nine',
+            'twelve': 'one hundred forty four'
+        }
+    elif repl_type == 'alternating_sign':
+        repl_dict = {'one': '1', 'two': '-2', 'three': '3', 'four': '-4', 'five': '5', 'six': '-6', 'seven': '7', 'eight': '-8', 'nine': '9', 'ten': '-10', 'eleven': '11', 'twelve': '-12'}
+    elif repl_type == 'descending_num':
+        repl_dict = {'one': '12', 'two': '11', 'three': '10', 'four': '9', 'five': '8', 'six': '7', 'seven': '6', 'eight': '5', 'nine': '4', 'ten': '3', 'eleven': '2', 'twelve': '1'}
+    elif repl_type == 'descending_num_words':
+        repl_dict = {'one': 'twelve', 'two': 'eleven', 'three': 'ten', 'four': 'nine', 'five': 'eight', 'six': 'seven', 'seven': 'six', 'eight': 'five', 'nine': 'four', 'ten': 'three', 'eleven': 'two', 'twelve': 'one'}
+       
 
     out = copy.deepcopy(data_list)
     for item in out:
@@ -181,6 +208,24 @@ def get_good_prompts_numerals(model, prompts_list):
             model = model,
             incor = incor
         )
+
+        ### debugging ###
+        print("answer=\n")
+        print(answer)
+
+        print("\nincor=\n")
+        print(incor)
+
+        print("\ntoks = \n")
+        print(toks)
+
+        print("\nincor_ind =\n")
+        print(incor_ind)
+
+        print("\nprobs = \n")
+        print(probs)
+        ### debugging ###
+
         if incor_ind == 'cont':
             continue
 
@@ -204,7 +249,16 @@ def generate_prompts_list_corr(prompt_list):
             r4 = random.randint(1, 12)
             if r4 - 1 != r3:
                 break
-        new_text = prompt_dict['text'].replace(prompt_dict['S1'], str(r1)).replace(prompt_dict['S2'], str(r2)).replace(prompt_dict['S3'], str(r3)).replace(prompt_dict['S4'], str(r4))
+        # new_text = prompt_dict['text'].replace(prompt_dict['S1'], str(r1)).replace(prompt_dict['S2'], str(r2)).replace(prompt_dict['S3'], str(r3)).replace(prompt_dict['S4'], str(r4))
+        text_list = prompt_dict['text'].split(".")
+        new_text_list = []
+        new_text_list.append(text_list[0].replace(prompt_dict['S1'], str(r1)))
+        new_text_list.append(text_list[1].replace(prompt_dict['S2'], str(r2)))
+        new_text_list.append(text_list[2].replace(prompt_dict['S3'], str(r3)))
+        new_text_list.append(text_list[3].replace(prompt_dict['S4'], str(r4)))
+        new_text_list.append(text_list[4])
+        new_text = ".".join(new_text_list)
+        
         new_prompt_dict = {
             'S1': str(r1),
             'S2': str(r2),
@@ -215,6 +269,7 @@ def generate_prompts_list_corr(prompt_list):
             'text': new_text
         }
         outlist.append(new_prompt_dict)
+
     return outlist
 
 # prompts_list_2 = generate_prompts_list_corr(prompts_list)

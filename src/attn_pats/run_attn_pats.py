@@ -2,19 +2,20 @@
 Runs visualize attention patterns and saves to json
 
 Usage:
-python run_attn_pats.py --model "gpt2-small" --task "numerals" --num_samps 128  
+python run_attn_pats.py --model "gpt2-medium" --task "numerals_alternate" --num_samps 86  
 """
 import os
 import pickle
 import argparse
 from transformer_lens import HookedTransformer
+import json
 
 from viz_attn_pat import *
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", type=str, default="gpt2-small")
-    parser.add_argument("--task", choices=["numerals", "numwords", "months", "numerals_step_2", "numerals_step_3"], type=str, default="numerals")
+    parser.add_argument("--model", type=str, default="gpt2-medium") # CHANGE AS NEEDED
+    parser.add_argument("--task", choices=["numerals", "numwords", "months", "numerals_step_2", "numerals_step_3", "numerals_alternate", "descending_num"], type=str, default="numerals")
     parser.add_argument("--num_samps", type=int, default=512)
 
     args = parser.parse_args()
@@ -55,56 +56,26 @@ if __name__ == "__main__":
     # get the cache to get attention patterns from
     original_logits, local_cache = model.run_with_cache(tokens) # Run the model and cache all activations
 
-    ### Visualize ###
-    layer = 1
-    head_ind = 5
-    viz_attn_pat(
-        model,
-        tokens,
-        local_cache,
-        layer, 
-        head_ind,
-        task,
-        highlightLines = 'early',
-        savePlotName = f'attnpat{layer}_{head_ind}_{task}'
-    )
+    ### Visualize ### ###ADD HEADS TO GENERATE GRAPHS FOR######
+    with open('../../results/numerals_50_aft_prune.json', 'r') as f:
+        data = json.load(f)
 
-    layer = 4
-    head_ind = 4
-    viz_attn_pat(
-        model,
-        tokens,
-        local_cache,
-        layer, 
-        head_ind,
-        task,
-        highlightLines = 'early',
-        savePlotName = f'attnpat{layer}_{head_ind}_{task}'
-    )
+    # task = 'descending_num'
+    task = 'numerals'
 
-    layer = 7
-    head_ind = 11
-    viz_attn_pat(
-        model,
-        tokens,
-        local_cache,
-        layer, 
-        head_ind,
-        task,
-        highlightLines = 'mid',
-        savePlotName = f'attnpat{layer}_{head_ind}_{task}'
-    )
+    for pair in data:
+        layer = pair[0]
+        print(layer)
+        head_ind = pair[1]
 
-    layer = 9
-    head_ind = 1
-    viz_attn_pat(
-        model,
-        tokens,
-        local_cache,
-        layer, 
-        head_ind,
-        task,
-        highlightLines = 'late',
-        savePlotName = f'attnpat{layer}_{head_ind}_{task}'
-    )
-
+        viz_attn_pat(
+            model,
+            tokens,
+            local_cache,
+            layer, 
+            head_ind,
+            task,
+            highlightLines = 'late',
+            savePlotName = f'attnpat{layer}_{head_ind}_{task}'
+        )
+        print(f"layer = {layer}; head_ind = {head_ind}")
