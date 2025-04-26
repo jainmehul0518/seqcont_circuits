@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-avg_drop_nodes.py  –  list attention heads *and* MLPs whose removal
+avg_drop_heads.py  –  list attention heads *and* MLPs whose removal
                        hurts performance by >= THRESHOLD %.
 
 usage:
-    python avg_drop_nodes.py numerals_alternate_node_prune.txt 50
+    python avg_drop_heads.py numerals_alternate_node_prune.txt 50
 """
 
 from __future__ import annotations
