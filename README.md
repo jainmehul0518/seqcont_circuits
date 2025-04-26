@@ -115,3 +115,7 @@ python avg_drop_heads.py (insert the text file here) (insert the threshold)
 
 
 python .\avg_drop_heads.py "C:\Users\Adity\Downloads\numerals_alternate_node_prune.txt" 50 > output.json
+
+
+## analysis tx files on Apr.26 file name format:
+name_threshold.txt

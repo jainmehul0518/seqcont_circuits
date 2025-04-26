@@ -1,0 +1,84 @@
+{
+  "threshold": 53.0,
+  "heads": [
+    {
+      "layer": 8,
+      "head": 10,
+      "avg_pct": 30.0244
+    },
+    {
+      "layer": 10,
+      "head": 14,
+      "avg_pct": 42.0975
+    },
+    {
+      "layer": 11,
+      "head": 4,
+      "avg_pct": 28.6472
+    },
+    {
+      "layer": 12,
+      "head": 13,
+      "avg_pct": 46.0316
+    },
+    {
+      "layer": 14,
+      "head": 14,
+      "avg_pct": 29.7967
+    }
+  ],
+  "mlps": [
+    {
+      "layer": 5,
+      "avg_pct": 46.0074
+    },
+    {
+      "layer": 6,
+      "avg_pct": 43.7678
+    },
+    {
+      "layer": 7,
+      "avg_pct": 41.9324
+    },
+    {
+      "layer": 8,
+      "avg_pct": 46.7568
+    },
+    {
+      "layer": 10,
+      "avg_pct": 44.6251
+    },
+    {
+      "layer": 11,
+      "avg_pct": 46.3683
+    },
+    {
+      "layer": 12,
+      "avg_pct": 46.5932
+    },
+    {
+      "layer": 15,
+      "avg_pct": 45.5243
+    },
+    {
+      "layer": 16,
+      "avg_pct": 32.974
+    },
+    {
+      "layer": 17,
+      "avg_pct": 44.2469
+    },
+    {
+      "layer": 18,
+      "avg_pct": 44.8932
+    },
+    {
+      "layer": 19,
+      "avg_pct": 43.8172
+    },
+    {
+      "layer": 20,
+      "avg_pct": 39.0353
+    }
+  ]
+}

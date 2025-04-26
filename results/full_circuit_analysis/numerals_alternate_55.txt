@@ -1,0 +1,52 @@
+{
+  "threshold": 55.0,
+  "heads": [
+    {
+      "layer": 6,
+      "head": 0,
+      "avg_pct": 37.3967
+    },
+    {
+      "layer": 8,
+      "head": 10,
+      "avg_pct": 44.5808
+    },
+    {
+      "layer": 11,
+      "head": 4,
+      "avg_pct": 43.7667
+    },
+    {
+      "layer": 12,
+      "head": 1,
+      "avg_pct": 41.5342
+    },
+    {
+      "layer": 17,
+      "head": 1,
+      "avg_pct": 39.9077
+    }
+  ],
+  "mlps": [
+    {
+      "layer": 0,
+      "avg_pct": 1.6494
+    },
+    {
+      "layer": 1,
+      "avg_pct": 38.528
+    },
+    {
+      "layer": 5,
+      "avg_pct": 44.7216
+    },
+    {
+      "layer": 6,
+      "avg_pct": 42.2187
+    },
+    {
+      "layer": 9,
+      "avg_pct": 43.1163
+    }
+  ]
+}
